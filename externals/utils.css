@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-image: url(theimages/marble[2]golden\ white.jpg)
+}
+
+
+img,picture,video,canvas,svg{
+    user-select: none;
+    max-width: 100%;
+    display: block;
+}
+
+
+body::-webkit-scrollbar{
+      display: none;
+      overflow-x: hidden;
+}
+
+
+
+@media (min-width : 475px){}
+@media (min-width : 640px){}
+@media (min-width : 768px){}
+@media (min-width : 1024px){}
+@media (min-width : 1280px){}
+@media (min-width : 1536px){}
+
+
+.container{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+}
+
+
+/* mediaquery */
+
+
+@media (min-width:400px){
+       .container{
+           max-width: 400px;
+       }
+}
+/* xs */
+@media (min-width : 475px){
+        .container{
+               max-width: 475px;
+        }    
+}
+/* sm */
+@media (min-width : 640px){
+      .container{
+        max-width: 640px;
+      }
+}
+/* med */
+@media (min-width : 768px){
+      .container{
+          max-width: 768px;
+      }
+}
+/* lg */
+@media (min-width : 1024px){
+    .container{
+          max-width: 1024px;
+    }
+}
+/* xl */
+@media (min-width : 1280px){
+       .container{
+           max-width: 1280px;
+       }
+}
+/* 2xl */
+@media (min-width : 1536px){
+    .container{
+        max-width: 1536px;
+    }
+}
+
+
+
+
+@font-face {
+    font-family: gillsans;
+    src: url(fonts/gillsansnova_n6.5f4190c74a69fdd8796d1db47dc78ecd9c91f261.woff2);
+ }
+
+@font-face {
+    font-family: worksans5;
+    src: url(fonts/worksans_n5.6cde5c1d2c480f1062bb34a4ed95b947b1d9bee0.ttf);
+}
+
+@font-face {
+    font-family:worksans4 ;
+    src: url(fonts/worksans_n7.35eac55373d3da50c529c81066eb2f2f0fbedb82.ttf);
+}
+@font-face {
+    font-family: worksans3;
+    src: url(fonts/worksans_n8.368b5b1067416dc1ee839e5c1b72fb46990ce0a7.ttf);
+}
+@font-face {
+    font-family: worksans2;
+    src: url(fonts/worksans_n9.ab6506808f497e756615d6ab9f5071dbabe19a1a.ttf);
+}
+@font-face {
+    font-family:ttroman;
+    src: url(fonts/tt-commons-var-roman.6bf6db13e312f8611a71.ttf);
+}
+@font-face {
+    font-family:ttnorms;
+    src: url(fonts/TTNorms-Medium.5c148fd3.ttf);
+}
+@font-face {
+    font-family: helbold;
+    src: url(fonts/HelveticaNowText-Bold.ttf);
+}
+@font-face {
+    font-family: helEXbold;
+    src: url(fonts/HelveticaNowText-ExtraBold.ttf);
+}
+@font-face {
+    font-family: hellight;
+    src: url(fonts/HelveticaNowText-Light.ttf);
+}
+
+
+@font-face {
+    font-family:domain;
+    src: url(fonts/Domaine.ttf);
+}
+
+@font-face {
+    font-family:light;
+    src: url(fonts/EditorialNew-Light.ttf);
+}
+
+@font-face {
+    font-family:canopee;
+    src: url(fonts/Canopee.ttf);
+}
+
+
+
+.sect{
+    margin-top: 10rem;
+}
+
+strong{
+    color: #818cf8;
+}

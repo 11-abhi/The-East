@@ -1,0 +1,767 @@
+
+
+
+
+            .hero-colour{
+                margin-top: 10rem;
+                padding: 0 20px;
+                text-align: center;
+            }
+
+            .Colour-workh1{
+                   font-family: ttnorms;
+                   font-size: 1.2em;
+                   color: #ca8a04;
+                   font-weight: 888;
+                   position: relative;
+                   display: inline-block;
+                   margin-top: 2rem;
+            }
+
+
+            .Colour-workh1::after{
+                    content: '';
+                    position: absolute;
+                    height: 35px;
+                    width: 50px;
+                    top: -20px;
+                    left: 0px;
+                    z-index: -1;
+                    background: linear-gradient(#ca8a04,#f8fafc);
+                    border-bottom-right-radius: 35px;
+                    border-top-left-radius: 35px;
+                   
+            }
+            
+
+            .hero-colour p{
+                 font-family: ttroman;
+                 color: #020617b1;
+                 font-weight: 888;
+                 font-size: 1.2em;
+            }
+
+
+            
+                    .haircolours{
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        margin-top: 1rem;
+                        grid-gap: 1rem;
+                }
+
+                    .hair-div img{
+                        height: 400px;
+                        width: 700px;
+                        object-fit: cover;
+                        object-position: cover;
+                        
+                    }
+               
+                    .hair-div{
+                        position: relative;
+                        cursor: pointer;
+                    
+                    }
+
+                .hair-div::after{
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgba(79, 70, 229,0.5);
+                        z-index: 1;
+                        transition: background-color 0.3s;
+                }
+            
+                .hair-div:hover::after{
+                    background-color: rgba(79, 70, 229,0.1); 
+                }
+
+
+
+
+
+
+
+
+                .ratecards{
+                    height: 210px;
+                    width: 100%;
+                    padding: 0 20px;
+                }
+
+
+                /* swipper */
+
+                .swiper {
+                    width: 100%;
+                    height: 100%;
+                  }
+              
+                  .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: rgba( 99, 102, 241, 0.4 );
+                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+              
+                  .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+
+
+                  .swiper-slide .table-box .table-row{
+                       width: 100%;
+                       background-color: #f8fafc;
+                       box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                       display: table;
+                       color: #ca8a04;
+                       text-align: center;
+                       font-family: ttroman;
+                       font-size: 0.5em;
+                  }
+
+                  .table-cell{
+                    display: table-cell;
+                    border-right: none;
+                    width: 18%;
+                    text-align: center;
+                    vertical-align: middle;
+                  }
+
+                  .table-box{
+                    margin-top: 0.5em;
+                  }
+
+                  .table-row #table-light{
+                       font-family: hellight;
+                       font-weight: 100;
+                       color: #09090ba7;
+                       font-size: 0.9em;
+                  }
+
+
+
+                            .table-row2{
+                                display: table;
+                                text-align: center;
+                                font-size: 0.45em;
+                                background-color: #f8fafc;
+                                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                                color: #ca8a04;
+                                font-weight: 888;
+                                text-transform: capitalize;
+                                width: 100%;
+                                font-family: ttnorms;
+                            }
+
+                            .table-cell2{
+                                display: table-cell;
+                                text-align: center;
+                                width: 30%;
+                                border-right: 1px solid red;
+                                vertical-align: middle;
+                            }
+
+                             .table-box2{
+                                margin-top: 0.5em;
+                              }
+
+
+
+                              #table-light2{
+                                font-size: 0.9em;
+                                font-family: hellight;
+                                color: #0307129d;
+                              }
+
+
+                              .footer{
+                                background: rgba( 250, 250, 250, 0.25 );
+                                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                backdrop-filter: blur( 1.5px );
+                                -webkit-backdrop-filter: blur( 1.5px );
+                                border-radius: 10px;
+                                border: 1px solid rgba( 255, 255, 255, 0.18 );
+                                display: flex;
+                                flex-direction: column;
+                                gap: 0.5em;
+                                text-align: center;
+                                justify-content: center;
+                            }
+    
+                            .footer h1{
+                                 font-weight: 900;
+                                 font-size: 1.4em;
+                                 font-family: ttroman;
+                                 color: #ca8a04;
+                            }
+                            .footer p{
+                                 font-weight: 900;
+                                 font-size: 1em;
+                                 font-family: ttroman;
+                                 color: #09090ba1;
+                            }
+    
+                            .footer a{
+                                padding: 10px 15px;
+                                border: 1px solid #ca8a04;
+                                box-sizing: border-box;
+                                color: #09090ba1;
+                                background-color: #ca8a04;
+                                width: 50%;
+                                border-radius: 10px;
+                                text-decoration: none;
+                                margin: 0 auto;
+                                background: rgba( 202, 138, 4, 0.8 );
+                                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                backdrop-filter: blur( 9px );
+                                -webkit-backdrop-filter: blur( 9px );
+                                border-radius: 10px;
+                            }
+
+                              
+
+                    @media (min-width : 475px){
+
+
+                        .hero-colour{
+                            margin-top: 12rem;
+                        }
+            
+                        .Colour-workh1{
+                               font-size: 1.4em;
+                        }
+            
+            
+                        .Colour-workh1::after{
+                                height: 35px;
+                                width: 50px;
+                                top: -20px;
+                                border-bottom-right-radius: 35px;
+                                border-top-left-radius: 35px;
+                        }
+                        
+            
+                        .hero-colour p{
+                             font-size: 1.3em;
+                        }
+
+
+                        
+        
+        
+                        /* swipper */
+                        
+                        .ratecards{
+                            height: 230px;
+                            width: 100%;
+                            padding: 0 20px;
+                        }
+                      
+                          .swiper-slide {
+                            font-size: 1.4em;
+                          }
+                      
+        
+        
+                          .swiper-slide .table-box .table-row{
+                               font-size: 0.5em;
+                          }
+        
+                          .table-cell{
+                            width: 18%;
+                          }
+        
+                          .table-box{
+                            margin-top: 0.5em;
+                          }
+        
+                          .table-row #table-light{
+                               font-size: 0.8em;
+                          }
+
+
+
+
+
+                          /* table2 */
+
+
+                          .table-row2{
+                            font-size: 0.45em;
+                        
+                        }
+
+                        .table-cell2{
+                            width: 30%;
+                        }
+
+                         .table-box2{
+                            margin-top: 0.5em;
+                          }
+
+
+
+                          #table-light2{
+                            font-size: 0.9em;
+                            font-family: hellight;
+                            color: #0307129d;
+                          }
+
+
+                          /* .footer */
+
+
+                          .footer h1{
+                            font-size: 1.5em;
+                       }
+                       .footer p{
+                            font-size: 1.1em;
+                       }
+
+                       .footer a{
+                           padding: 10px 15px;
+                           width: 30%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                       }
+
+                    }
+                    @media (min-width : 640px){
+
+                        .hero-colour{
+                            margin-top: 12rem;
+                        }
+            
+                        .Colour-workh1{
+                               font-size: 1.5em;
+                        }
+            
+            
+                        .Colour-workh1::after{
+                                height: 35px;
+                                width: 50px;
+                                top: -22px;
+                                border-bottom-right-radius: 35px;
+                                border-top-left-radius: 35px;
+                        }
+                        
+            
+                        .hero-colour p{
+                             font-size: 1.4em;
+                        }
+
+
+
+                        .haircolours{
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                            margin-top: 1rem;
+                            grid-gap: 1rem;
+                    }
+
+                                .ratecards{
+                                    height: 260px;
+                                    width: 100%;
+                                    padding: 0 20px;
+                                }
+                              
+                                  .swiper-slide {
+                                    font-size: 1.5em;
+                                  }
+                              
+                
+                
+                                  .swiper-slide .table-box .table-row{
+                                       font-size: 0.6em;
+                                  }
+                
+                                  .table-cell{
+                                    width: 20%;
+                                  }
+                
+                                  .table-box{
+                                    margin-top: 0.5em;
+                                  }
+                
+                                  .table-row #table-light{
+                                       font-size: 0.8em;
+                                  }
+
+
+
+
+
+                                  .table-row2{
+                                    font-size: 0.48em;
+                                
+                                }
+        
+                                .table-cell2{
+                                    width: 30%;
+                                }
+        
+                                 .table-box2{
+                                    margin-top: 0.5em;
+                                  }
+        
+        
+        
+                                  #table-light2{
+                                    font-size: 0.9em;
+                                    font-family: hellight;
+                                    color: #0307129d;
+                                  }
+
+
+
+                                  /* .footer */
+
+
+                                  .footer h1{
+                                    font-size: 1.6em;
+                               }
+                               .footer p{
+                                    font-size: 1.2em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 10px;
+                                   width: 35%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.3em;
+                               }
+
+                    }
+                    @media (min-width : 768px){
+
+                        .hero-colour{
+                            margin-top: 12rem;
+                        }
+            
+                        .Colour-workh1{
+                               font-size: 1.6em;
+                        }
+            
+            
+                        .Colour-workh1::after{
+                                height: 35px;
+                                width: 50px;
+                                top: -22px;
+                                border-bottom-right-radius: 35px;
+                                border-top-left-radius: 35px;
+                        }
+                        
+            
+                        .hero-colour p{
+                             font-size: 1.4em;
+                        }
+
+
+                                .ratecards{
+                                    height: 280px;
+                                    width: 100%;
+                                    padding: 0 20px;
+                                }
+                              
+                                  .swiper-slide {
+                                    font-size: 1.6em;
+                                  }
+                              
+                
+                
+                                  .swiper-slide .table-box .table-row{
+                                       font-size: 0.6em;
+                                  }
+                
+                                  .table-cell{
+                                    width: 21%;
+                                  }
+                
+                                  .table-box{
+                                    margin-top: 0.5em;
+                                  }
+                
+                                  .table-row #table-light{
+                                       font-size: 0.8em;
+                                  }
+
+
+
+
+
+                                  .table-row2{
+                                    font-size: 0.5em;
+                                
+                                }
+        
+                                .table-cell2{
+                                    width: 30%;
+                                }
+        
+                                 .table-box2{
+                                    margin-top: 0.5em;
+                                  }
+        
+        
+        
+                                  #table-light2{
+                                    font-size: 0.8em;
+                                    font-family: hellight;
+                                    color: #0307129d;
+                                  }
+
+
+
+
+
+                                  /* .footer */
+
+
+                                  .footer h1{
+                                    font-size: 1.7em;
+                               }
+                               .footer p{
+                                    font-size: 1.3em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 10px;
+                                   width: 28%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.3em;
+                               }
+                    }
+                    @media (min-width : 1024px){
+                                
+                        .hero-colour{
+                            margin-top: 12rem;
+                        }
+            
+                        .Colour-workh1{
+                               font-size: 1.7em;
+                        }
+            
+            
+                        .Colour-workh1::after{
+                                height: 35px;
+                                width: 50px;
+                                top: -22px;
+                                border-bottom-right-radius: 35px;
+                                border-top-left-radius: 35px;
+                        }
+                        
+            
+                        .hero-colour p{
+                             font-size: 1.5em;
+                        }
+
+
+                        .ratecards{
+                            height: 290px;
+                            width: 100%;
+                            padding: 0 20px;
+                        }
+                      
+                          .swiper-slide {
+                            font-size: 1.7em;
+                          }
+                      
+        
+        
+                          .swiper-slide .table-box .table-row{
+                               font-size: 0.6em;
+                          }
+        
+                          .table-cell{
+                            width: 22%;
+                          }
+        
+                          .table-box{
+                            margin-top: 0.5em;
+                          }
+        
+                          .table-row #table-light{
+                               font-size: 0.8.1em;
+                          }
+
+
+
+
+                          .table-row2{
+                            font-size: 0.51em;
+                        
+                        }
+
+                        .table-cell2{
+                            width: 30%;
+                        }
+
+                         .table-box2{
+                            margin-top: 0.5em;
+                          }
+
+
+
+                          #table-light2{
+                            font-size: 0.81em;
+                            font-family: hellight;
+                            color: #0307129d;
+                          }
+
+
+
+
+                          .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 18%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                           margin-bottom: 1em;
+                       }
+                    }
+                    @media (min-width : 1280px){
+                        .hero-colour{
+                            margin-top: 12rem;
+                        }
+            
+                        .Colour-workh1{
+                               font-size: 1.7em;
+                        }
+            
+            
+                        .Colour-workh1::after{
+                                height: 35px;
+                                width: 50px;
+                                top: -22px;
+                                border-bottom-right-radius: 35px;
+                                border-top-left-radius: 35px;
+                        }
+                        
+            
+                        .hero-colour p{
+                             font-size: 1.5em;
+                        }
+
+
+
+
+                        .ratecards{
+                            height: 299px;
+                            width: 100%;
+                            padding: 0 20px;
+                        }
+                      
+                          .swiper-slide {
+                            font-size: 1.8em;
+                          }
+                      
+        
+        
+                          .swiper-slide .table-box .table-row{
+                               font-size: 0.6em;
+                          }
+        
+                          .table-cell{
+                            width: 22%;
+                          }
+        
+                          .table-box{
+                            margin-top: 0.5em;
+                          }
+        
+                          .table-row #table-light{
+                               font-size: 0.8.2em;
+                          }
+
+
+
+
+                          .table-row2{
+                            font-size: 0.52em;
+                        
+                        }
+
+                        .table-cell2{
+                            width: 30%;
+                        }
+
+                         .table-box2{
+                            margin-top: 0.5em;
+                          }
+
+
+
+                          #table-light2{
+                            font-size: 0.82em;
+                            font-family: hellight;
+                            color: #0307129d;
+                          }
+
+
+
+                          /* .footer */
+
+
+                          .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 18%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                       }
+                    }
+                    @media (min-width : 1536px){
+                        .hero-colour{
+                            margin-top: 12rem;
+                        }
+            
+                        .Colour-workh1{
+                               font-size: 1.8em;
+                        }
+            
+            
+                        .Colour-workh1::after{
+                                height: 35px;
+                                width: 50px;
+                                top: -22px;
+                                border-bottom-right-radius: 35px;
+                                border-top-left-radius: 35px;
+                        }
+                        
+            
+                        .hero-colour p{
+                             font-size: 1.6em;
+                        }
+                    }
+
+
+                    
+

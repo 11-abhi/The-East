@@ -1,0 +1,417 @@
+.action-form{
+    height: 100%;
+    width: 100%;
+    background-color:#fafaf9;
+    position: absolute;
+    z-index: 999;
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 1rem;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+
+
+.action-form header{
+    grid-area: 1/1/2/5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+
+
+
+.action-form .action-first{
+          grid-area: 2/1/5/5;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+         overflow-y: auto;
+         overflow-x: hidden;
+}
+
+.action-first::-webkit-scrollbar{
+        background-color: #a8a29eb9;
+         width: 15px;
+         
+}
+
+::-webkit-scrollbar-track{
+         background-color: #d6d3d1;
+         
+}
+
+::-webkit-scrollbar-thumb{
+      background: linear-gradient(100deg,rgba(2, 132, 199),rgba(219, 39, 119,0.6));
+      border-radius: 10px;
+     
+}
+
+.outer-actionbtn{
+    width: 30%;
+    height: 50px;
+    display: grid;
+    place-items: center;
+
+}
+
+.outer-shape{
+    height: 30px;
+    width: 32px;
+    border: 1px solid #ca8a04;
+    position: absolute;
+    z-index: 6;
+    transform: translate(5px,5px);
+}
+
+header .formbtn{
+    color: #09090b;
+    border: 1px solid #ca8a04;
+    font-size: 1.2rem;
+    background-color: #ca8a04;
+    position: relative;
+    z-index: 8;
+    outline: none;
+}
+
+
+
+.outer-anchor{
+      height: 80px;
+      width: 60%;
+      position: relative;
+      display: grid;
+      place-items: center;
+}
+
+.outera-shape{
+            position: absolute;
+            height: 40px;
+            width: 123px;
+            border: 1.4px solid #ca8a04;
+            transform: translate(6px,1px);
+            position: absolute;
+}
+
+.frm-anchor{
+    text-decoration: none;
+    font-family: worksans5;
+    font-size: 1.1rem;
+    background-color: #ca8a04;
+    padding: 6px 4px;
+    border: 1px solid #ca8a04;
+    outline: none;
+    border-radius: 1px;
+    font-weight: 888;
+    color: #f5f5f4;
+    letter-spacing: -0.2px;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 0.3rem;
+    width: 120px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.action-sec{
+    grid-area: 2/3/5/5;
+    max-width: 600px; 
+    margin-left: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(theimages/alexander-krivitskiy-8gGUMSQQz0E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: none;
+}
+
+
+.action-sec img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: none;
+  transition: opacity 0.5s ease; 
+  }
+
+
+
+
+
+
+/* .action-first */
+
+
+.action-first h1{
+        color: #ca8a04;
+        font-size: 1.8rem;
+        font-weight: 888;
+        font-family: ttroman;  
+        margin-bottom: 1.5rem;
+}
+
+ .action-first nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ nav  ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+ }
+
+ ul li{
+       list-style: none;
+ }
+
+ul li a{
+       text-decoration: none;
+       font-family: ttnorms;
+       font-size: 1.5rem;
+       color: #09090b;
+       text-transform: capitalize;
+ }
+
+ul li a strong{
+        color: #6366f1;
+ }
+
+
+ 
+
+ 
+
+
+
+
+
+@media (min-width : 475px){
+ 
+}
+@media (min-width : 640px){
+    .action-form{
+        height: 100%;
+        width: 100%;
+        background-color:#fafaf9;
+        position: absolute;
+        z-index: 999;
+        /* visibility: hidden; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-gap: 1rem;
+        overflow: hidden;
+    }
+
+
+    .action-form header{
+        grid-area: 1/1/2/5;
+        height: 100px;
+    }
+    
+    .action-form .action-first{
+              grid-area: 2/1/5/3;
+    }
+
+    .action-sec{
+          grid-area: 2/3/5/5;
+          max-width: 600px; 
+          margin-left: 80px;
+          background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(theimages/alexander-krivitskiy-8gGUMSQQz0E-unsplash.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+          display: block;
+    }
+    
+
+    .action-sec img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: none;
+        transition: opacity 0.5s ease; 
+        }
+
+
+    
+    
+
+    .outer-actionbtn{
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+       
+    }
+    
+    .outer-shape{
+        height: 38px;
+        width: 38px;
+        border: 1px solid #ca8a04;
+        position: absolute;
+        z-index: 6;
+        transform: translate(5px,5px);
+    }
+    
+    header .formbtn{
+        color: #09090b;
+        border: 1px solid #ca8a04;
+        font-size: 1.5rem;
+        background-color: #ca8a04;
+        position: relative;
+        z-index: 8;
+    }
+
+    .outer-anchor{
+        height: 80px;
+        width: 60%;
+        position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: flex-end;
+       padding: 0 18px;
+  }
+  
+  .outera-shape{
+              position: absolute;
+              height: 50px;
+              width: 165px;
+              border: 1.4px solid #ca8a04;
+              transform: translate(8px,2px);
+              position: absolute;
+
+  }
+  
+  .frm-anchor{
+      font-size: 1.3rem;
+      padding: 8px;
+      border-radius: 1px;
+      margin-bottom: 0.5rem;
+      width: 170px;
+      display: grid;
+      place-items: center;
+      height: 48px;
+  }
+
+}
+
+/* .action-first */
+
+.action-first h1{
+    font-size: 2.2rem;
+    font-weight: 999;
+}
+
+
+
+.frst-ul li a{
+   font-family: ttnorms;
+   font-size: 1.8rem;
+}
+
+
+@media (min-width : 768px){
+    .outer-actionbtn{
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+       
+    }
+    
+    .outer-shape{
+        height: 38px;
+        width: 40px;
+        border: 1px solid #ca8a04;
+        position: absolute;
+        z-index: 6;
+        transform: translate(5px,5px);
+    }
+    
+    header .formbtn{
+        color: #09090b;
+        border: 1px solid #ca8a04;
+        font-size: 1.7rem;
+        background-color: #ca8a04;
+        position: relative;
+        z-index: 8;
+    }
+
+    .action-first h1{
+        font-size: 2.7rem;
+        font-weight: 999;
+    }
+    
+    
+    
+    .frst-ul li a{
+       font-family: ttnorms;
+       font-size: 1.6rem;
+    }
+    
+}
+@media (min-width : 1024px){
+    .action-first h1{
+        font-size: 2.7rem;
+        font-weight: 999;
+    }
+    
+    
+    
+    .frst-ul li a{
+       font-family: ttnorms;
+       font-size: 1.6rem;
+    }
+}
+@media (min-width : 1280px){
+    .action-first h1{
+        font-size: 2.8rem;
+        font-weight: 999;
+    }
+    
+    
+    
+    .frst-ul li a{
+       font-family: ttnorms;
+       font-size: 1.8rem;
+    }
+}
+@media (min-width : 1536px){
+    .action-first h1{
+        font-size: 3rem;
+        font-weight: 999;
+    }
+    
+    
+    
+    .frst-ul li a{
+       font-family: ttnorms;
+       font-size: 2rem;
+    }
+}
+
+
+
+
+
+

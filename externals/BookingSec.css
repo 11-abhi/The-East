@@ -1,0 +1,876 @@
+
+
+
+
+            .Booking-Sect{
+                  height: 800px;
+                  width: 100%;
+                  background-color: #f8fafc;
+                  display: grid;
+                  grid-template-columns: repeat(6,1fr);
+                  grid-template-rows: repeat(5,1fr);
+                  position: relative;
+            }
+
+         .headline{
+                    background-color: #f8fafc;
+                  grid-area: 1 / 1 / 2 / 7;
+                  text-align: center;
+                  display: grid;
+                  place-items: center;
+                  height: 50px;
+            }
+            
+
+            .service-header{
+                font-family: ttnorms;
+                font-size: 1.125rem;
+                color: #09090ba8;
+                font-weight: 666;
+            }
+
+            .middle{
+                background-color:#f8fafc;
+                grid-area: 2 / 1 / 6 / 7;
+                position: relative; 
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content: first baseline;
+                padding: 10px 15px;
+                overflow: scroll;
+                height: 395px;
+                transform: translateY(-50px);
+            } 
+
+            .middle::-webkit-scrollbar{
+                 display:none;
+            }
+
+             .middle p{
+                font-family: ttnorms;
+                font-weight: 100;
+                color:#09090ba8;
+                font-size: 0.875rem;
+                max-width: 60ch;
+                margin: 0 auto;
+             }
+
+
+                .middle button{
+                      background-color: #f8fafc;
+                      color: #f8fafc;
+                      padding: 0.5em 1em;
+                      border: 0;
+                      outline: none;
+                      border-radius: 5px;
+                      transition: background-color 300ms;
+                      cursor: pointer;
+                      color: #020617;
+                      font-family: ttnorms;
+                      font-weight: 666;
+                }
+
+                 .middle button:hover{
+                      background-color: #38bdf8;
+                      box-shadow:  0 0 8px rgba(0,0,0,0.5);
+                 }
+
+
+            .footer{
+                background-color: #f8fafc;
+                grid-area: 5 / 1 / 6 / 7;
+                z-index: 1;
+            }
+
+            .side-Part{
+                background-color: #f8fafc;
+                display: none;
+                /* border-left: calc() 1.6px solid  #a8a29e; */
+            }
+
+
+
+            .modal{
+                  padding: 1rem 2.125rem;
+                  border-radius: 5px;
+                  width: 350px;
+                  border: 0;
+                  outline: none;
+                  box-shadow: 0 0 18px 7px rgba(0,0,0,0.3);
+            }
+
+            .Booking-header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 0.5em;
+                width: 100%;
+            }
+            
+            
+
+            .Booking-header ul{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                gap: 0.8em;
+                justify-content: space-evenly;
+                list-style: none;
+                font-family: ttnorms;
+                font-size: 1em;
+            }
+
+
+            .Booking-header ul button{
+               background-image: url(theimages/icons8-close-24.png);
+               height: 1.5rem;
+               aspect-ratio: 1;
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+               border: 0;
+               outline: none;
+               border: 1px solid #a8a29e;
+               background-color: #38bdf8;
+               border-radius: 2px;
+            }
+
+
+            .modal{
+                margin: 0 auto;
+                transform: translateY(20rem);
+            }
+
+            .modal::backdrop{
+                  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+            }
+
+
+            /* Meny */
+            .select-Menu{
+                margin-top: 2em;
+                width: 100%;
+                padding: 0 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .select-Menu.active .options{
+                    display: block;
+            }
+            .select-Menu.active .select-btn i{
+                    transform: rotate(-180deg);
+            }
+
+            .select-btn i{
+                transition: 0.3s;
+            }
+
+          .select-btn{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content:space-between;
+              height: 48px;
+              width: 80%;
+              padding: 0 18px;
+              background-color: #f8fafc;
+              border-radius: 5px;
+              cursor: pointer;
+              box-shadow: 0 0 5px rgba(0,0,0,0.1);
+              font-size: 1rem;
+              font-family: ttnorms;
+              font-weight: 555;
+              color: #09090bcc;
+          }
+
+
+          
+         
+
+          .options{
+              position: relative;
+              padding: 0 20px;
+              background-color: #f8fafc;
+              border-radius: 6px;
+              box-shadow: 0 0 5px rgba(0,0,0,0.1);
+              width: 80%;
+              display: none;  
+          }
+
+           .option1{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0.5em;
+            padding: 1px 6px;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #09090bcc ;
+            font-family: ttnorms;
+           } 
+
+
+           .options .option1:hover{
+                 background-color: #38bdf8;
+           }
+
+           .The-flex-it {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: left;
+            gap: 0.5em;
+            cursor: pointer;
+           }
+
+
+
+                                        /* <------- Menu2 --------> */
+
+                                                
+                                      
+
+
+                                        
+                                        /* <------- Menu2 --------> */
+
+
+                                        .Olaplex{
+                                            margin-top: 0.8em;
+                                            width: 100%;
+                                            padding: 0 30px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            gap: 0.5rem;
+                                        }
+                            
+                                        .Olaplex.active .olplex-options{
+                                                display: block;
+                                        }
+                                        .Olaplex.active .olaplex-wrapper i{
+                                                transform: rotate(-180deg);
+                                        }
+                            
+                                        .olaplex-wrapper i{
+                                            transition: 0.3s;
+                                        }
+                            
+                                        .olaplex-wrapper{
+                                          display: flex;
+                                          flex-direction: row;
+                                          align-items: center;
+                                          justify-content:space-between;
+                                          height: 48px;
+                                          width: 80%;
+                                          padding: 0 18px;
+                                          background-color: #f8fafc;
+                                          border-radius: 5px;
+                                          cursor: pointer;
+                                          box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                                          font-size: 1rem;
+                                          font-family: ttnorms;
+                                          font-weight: 555;
+                                          color: #09090bcc;
+                                      }
+                            
+                            
+                                      
+                                     
+                            
+                                      .olplex-options{
+                                          position: relative;
+                                          padding: 0 20px;
+                                          background-color: #f8fafc;
+                                          border-radius: 6px;
+                                          box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                                          display: none;
+                                          width: 80%;
+                                      }
+                            
+                                      .olaplex-li{
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-bottom: 0.5em;
+                                        padding: 5px 6px;
+                                        border-radius: 5px;
+                                        font-size: 1rem;
+                                        color: #09090bcc;
+                                        font-family: ttnorms;
+                                       } 
+                            
+                            
+                                       .olplex-options .olaplex-li:hover{
+                                             background-color: #38bdf8;
+                                       }
+                            
+                                       .ola-flex {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: left;
+                                        gap: 0.5em;
+                                        cursor: pointer;
+                                       }
+
+                                        
+
+                                           /* <------- Menu3 --------> */
+
+
+                                           .stylist{
+                                            margin-top: 0.8em;
+                                            width: 100%;
+                                            padding: 0 30px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            gap: 0.5rem;
+                                        }
+                            
+                                        .stylist.active .stylist-options{
+                                                display: block;
+                                        }
+                                        .stylist.active  .Stylist-wrapper i{
+                                                transform: rotate(-180deg);
+                                        }
+                            
+                                        .Stylist-wrapper i{
+                                            transition: 0.3s;
+                                        }
+
+                            
+                                        .Stylist-wrapper{
+                                          display: flex;
+                                          flex-direction: row;
+                                          align-items: center;
+                                          justify-content:space-between;
+                                          height: 48px;
+                                          width: 80%;
+                                          padding: 0 18px;
+                                          background-color: #f8fafc;
+                                          border-radius: 5px;
+                                          cursor: pointer;
+                                          box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                                          font-size: 1rem;
+                                          font-family: ttnorms;
+                                          font-weight: 555;
+                                          color: #09090bcc;
+                                      }
+                            
+                            
+                                      
+                                     
+                            
+                                      .stylist-options{
+                                          position: relative;
+                                          background-color: #f8fafc;
+                                          border-radius: 6px;
+                                          box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                                          width: 80%;
+                                          padding: 0 20px;
+                                          display: none;
+                                      }
+                                    
+                            
+                                      .stylist-flex input{
+                                             cursor: pointer;
+                                      }
+
+                                      .ola-flex input{
+                                            cursor: pointer;
+                                      }
+
+                                      .The-flex-it input{
+                                          cursor: pointer;
+                                      }
+
+
+                                      .stylist-li{
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-bottom: 0.5em;
+                                        padding: 5px 6px;
+                                        border-radius: 5px;
+                                        font-size: 1rem;
+                                        color: #09090bcc;
+                                        font-family: ttnorms;
+                                       }    
+                            
+                            
+                                  .stylist-options .stylist-li:hover{
+                                             background-color: #38bdf8;
+                                       }
+                            
+                                       .stylist-flex{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: left;
+                                        gap: 0.5em;
+                                        cursor: pointer;
+                                       }
+
+
+                                       
+
+
+                                /* <-------Responsiveness----> */
+
+
+
+                                @media (min-width : 475px){
+                                    .Booking-Sect{
+                                        height: 780px;
+                                        width: 100%;
+                                  }
+                      
+                               .headline{
+                                        grid-area: 1 / 1 / 2 / 7;
+                                  }
+                                  
+                      
+                                  .service-header{
+                                      font-size: 1.125rem;
+                                  }
+                      
+                                  .middle{
+                                      grid-area: 2 / 1 / 6 / 7;
+                                  } 
+                      
+                                   .middle p{
+                                      font-size: 1rem;
+                                      font-family: ttnorms;
+                                   }
+                      
+                      
+                      
+                                  .footer{
+                                      grid-area: 5 / 1 / 6 / 7;
+                                    
+                                  }
+                      
+                                  .side-Part{
+                                      display: none;
+                                  }
+
+                                  
+                                  
+                      
+                                  .Booking-header ul{
+                                      font-size: 1rem;
+                                  }
+                                                                                
+                                  
+
+
+
+
+                /* <--------------------------------- Menu1 --------------------------------------------> */
+                .select-Menu{
+                    margin-top: 1em;
+                    padding: 0 30px;
+                }
+    
+              .select-btn{
+                  height: 60px;
+                  width: 80%;
+                  padding: 0 18px;
+                  font-size: 1rem;
+                  background-color: #cbd5e1;
+              }
+    
+    
+              
+             
+    
+              .options{
+                  background-color: #cbd5e1;
+              }
+    
+               .option1{
+                font-size: 1rem;
+               } 
+    
+
+               
+                /* <--------------------------------- Menu2 --------------------------------------------> */
+                .Olaplex{
+                    margin-top: 1em;
+                    padding: 0 30px;
+                }
+    
+                
+                .olaplex-wrapper{
+                  height: 60px;
+                  width: 80%;
+                  background-color: #cbd5e1;
+                  font-size: 1rem;
+              }
+    
+    
+            
+    
+              .olaplex-li{
+                font-size: 1rem;
+               } 
+    
+    
+               .olplex-options{
+                background-color: #cbd5e1;
+               }
+
+                                             /* <--------------------------------- Menu3 --------------------------------------------> */     
+                      
+                                             
+                                           .stylist{
+                                            margin-top: 2em;
+                                            width: 100%;
+                                            padding: 0 30px;
+                                        }
+                            
+                                        .Stylist-wrapper{
+                                          height: 60px;
+                                          width: 80%;
+                                          padding: 0 18px;
+                                          font-size: 1rem;
+                                          background-color: #cbd5e1;
+                                      }
+                            
+                            
+                                      
+                                     
+                            
+                                      .stylist-options{
+                                          background-color: #cbd5e1;
+                                      }
+                            
+                                      .stylist-li{
+                                        font-size: 1rem;
+                                       } 
+                            
+                                }
+                                @media (min-width : 640px){
+                                    .Booking-Sect{
+                                        height: 820px;
+                                        width: 100%;
+                                        
+                                  }
+                      
+                               .headline{
+                                        grid-area: 1 / 1 / 2 / 7;
+                                  }
+                                  
+                      
+                                  .service-header{
+                                      font-size: 1.25rem;
+                                  }
+                      
+                                  .middle{
+                                      grid-area: 2 / 1 / 6 / 7;
+                                  } 
+                      
+                                   .middle p{
+                                      font-size: 1.125rem;
+                                      font-family: ttnorms;
+                                   }
+                      
+                      
+                      
+                                  .footer{
+                                      grid-area: 5 / 1 / 6 / 7;
+                                  }
+                      
+                                  .side-Part{
+                                      display: none;
+                                  }
+
+                                  
+                                  
+                      
+                                  .Booking-header ul{
+                                      font-size: 1.125rem;
+                                  }
+
+
+
+
+
+
+
+
+                                  
+                /* <--------------------------------- Menu1 --------------------------------------------> */
+                .select-Menu{
+                    padding: 0 30px;
+                }
+    
+              .select-btn{
+                  height: 60px;
+                  width: 80%;
+                  padding: 0 18px;
+                  font-size: 1.125rem;
+                  background-color: #cbd5e1;
+              }
+    
+    
+              
+             
+    
+              .options{
+                  background-color: #cbd5e1;
+                  width: 80%;
+              }
+    
+               .option1{
+                font-size: 1rem;
+               } 
+    
+
+               
+                /* <--------------------------------- Menu2 --------------------------------------------> */
+                .Olaplex{
+                    margin-top: 1em;
+                    padding: 0 30px;
+                }
+    
+                
+                .olaplex-wrapper{
+                  height: 60px;
+                  width: 80%;
+                  background-color: #cbd5e1;
+                  font-size: 1.125rem;
+              }
+    
+    
+            
+    
+              .olaplex-li{
+                font-size: 1rem;
+               } 
+    
+    
+               .olplex-options{
+                background-color: #cbd5e1;
+                width: 80%;
+               }
+
+                                             /* <--------------------------------- Menu3 --------------------------------------------> */     
+                      
+                                             
+                                           .stylist{
+                                            margin-top: 2em;
+                                            width: 100%;
+                                            padding: 0 30px;
+                                        }
+                            
+                                        .Stylist-wrapper{
+                                          height: 60px;
+                                          width: 80%;
+                                          padding: 0 18px;
+                                          font-size: 1.125rem;
+                                          background-color: #cbd5e1;
+                                      }
+                            
+                            
+                                      
+                                     
+                            
+                                      .stylist-options{
+                                          background-color: #cbd5e1;
+                                          width: 80%;
+                                      }
+                            
+                                      .stylist-li{
+                                        font-size: 1rem;
+                                       } 
+
+                                }
+                                @media (min-width : 768px){
+                                    .Booking-Sect{
+                                        height: 820px;
+                                        width: 100%;
+                                  }
+                      
+                               .headline{
+                                        grid-area: 1 / 1 / 2 / 7;
+                                        z-index: 6;
+                                  }
+                                  
+                      
+                                  .service-header{
+                                      font-size: 1.25rem;
+                                  }
+                      
+                                  .middle{
+                                      grid-area: 2 / 1 / 6 / 7;
+                                      height: 100%;
+                                      height: 400px;
+                                  } 
+                      
+                                   .middle p{
+                                      font-size: 1.125rem;
+                                      font-family: ttnorms;
+                                   }
+                      
+                      
+                      
+                                  .footer{
+                                      grid-area: 5 / 1 / 6 / 7;
+                                     
+                                  }
+                      
+                                  .side-Part{
+                                      grid-area: 1 / 5 / 6 / 7;
+                                      z-index: 5;
+                                      display: none;
+                                  }
+
+                                  
+                                  
+                      
+                                  .Booking-header ul{
+                                      font-size: 1.125rem;
+                                  }
+
+
+
+                                                                
+                /* <--------------------------------- Menu1 --------------------------------------------> */
+                .select-Menu{
+                    padding: 0 30px;
+                }
+    
+              .select-btn{
+                  height: 60px;
+                  width: 60%;
+                  padding: 0 18px;
+                  font-size: 1.125rem;
+                  background-color: #cbd5e1;
+              }
+    
+    
+              
+             
+    
+              .options{
+                  background-color: #cbd5e1;
+                  width: 60%;
+              }
+    
+               .option1{
+                font-size: 1rem;
+               } 
+    
+
+               
+                /* <--------------------------------- Menu2 --------------------------------------------> */
+                .Olaplex{
+                    margin-top: 1em;
+                    padding: 0 30px;
+                }
+    
+                
+                .olaplex-wrapper{
+                  height: 60px;
+                  width: 60%;
+                  background-color: #cbd5e1;
+                  font-size: 1.125rem;
+              }
+    
+    
+            
+    
+              .olaplex-li{
+                font-size: 1rem;
+               } 
+    
+    
+               .olplex-options{
+                background-color: #cbd5e1;
+                width: 60%;
+               }
+
+                                             /* <--------------------------------- Menu3 --------------------------------------------> */     
+                      
+                                             
+                                           .stylist{
+                                            margin-top: 2em;
+                                            width: 100%;
+                                            padding: 0 30px;
+                                        }
+                            
+                                        .Stylist-wrapper{
+                                          height: 60px;
+                                          width: 60%;
+                                          padding: 0 18px;
+                                          font-size: 1.125rem;
+                                          background-color: #cbd5e1;
+                                      }
+                            
+                            
+                                      
+                                     
+                            
+                                      .stylist-options{
+                                          background-color: #cbd5e1;
+                                          width: 60%;
+                                      }
+                            
+                                      .stylist-li{
+                                        font-size: 1rem;
+                                       }
+
+
+                                }
+                                @media (min-width : 1024px){
+                                    .Booking-Sect{
+                                        height: 890px;
+                                        width: 100%;
+                                  }
+                      
+                               .headline{
+                                        grid-area: 1 / 1 / 2 / 7;
+                                  }
+                                  
+                      
+                                  .service-header{
+                                      font-size: 1.5rem;
+                                  }
+                      
+                                  .middle{
+                                      grid-area: 2 / 1 / 6 / 5;
+                                      padding-top: 1em;
+                                      height: 440px;
+                                  } 
+                      
+                                   .middle p{
+                                      font-size: 1.125rem;
+                                      font-family: ttnorms;
+                                   }
+                      
+                      
+                      
+                                  .footer{
+                                      grid-area: 5 / 1 / 6 / 5;
+                                  }
+                      
+                                  .side-Part{
+                                    grid-area: 1 / 5 / 6 / 7;
+                                    z-index: 5;
+                                    display: block;
+                                }   
+
+                                  
+                                  
+                      
+                                  .Booking-header ul{
+                                      font-size: 1.125rem;
+                                  } 
+
+                                 
+                                }
+                                @media (min-width : 1280px){}
+                                @media (min-width : 1536px){}

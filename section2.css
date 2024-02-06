@@ -1,0 +1,686 @@
+
+
+
+.section2{
+        min-height: 250vh;
+        width: 100%;
+        background-image: url(theimages/marble[2]golden\ white.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: sticky;
+        top: 0;
+    }
+
+
+    .section2-header{
+        height: 80px;
+        width: 100%;
+        background-color: #fafafa;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 6;
+    }
+
+    .section2-header .section2-btn{
+        border: 1px solid #ca8a04;
+        font-size: 1.4rem;
+        color: #ca8a04;
+        cursor: pointer;
+    }
+
+
+    .secion2-spandiv{
+           display: flex;
+           flex-direction: column;
+           padding: 0;
+            align-items: center;
+            justify-content: center;
+    }
+
+    .section2-anchordiv :nth-child(2){
+        line-height: 10px;
+        color: #ca8a04;
+        font-weight: 888;
+        font-family: ttnorms;
+        font-size: 1.4rem;
+        margin-bottom: 0.5em;
+        list-style: none;
+        text-decoration: none;
+        display: block;
+        
+    }
+
+    .section2-anchordiv :nth-child(1){
+           color: #ca8a04;
+           font-weight: 888;
+           font-family: ttnorms;
+           list-style: none;
+           text-decoration: none;
+           display: block;
+    }
+
+
+
+    /* scectionpdiv */
+
+
+    .sec2trans{
+        height: 200vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   }
+
+
+    .secmain-pdiv{
+          min-height: 200px;
+          min-width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 0 10px;
+          gap: 0.8em;
+         transform: translateY(-105px);
+         text-align: center;
+    }
+    
+
+    .secmain-pdiv h1{
+           font-size: 1rem;
+           color: #ca8a04;
+           font-weight: 888;
+           font-family: worksans5;
+
+    }
+    
+
+    .secmain-pdiv p{
+           font-size: 1.3rem;
+           color: #09090bd5;
+           font-weight: 888;
+           font-family: ttroman;
+           font-weight: 100;
+    }
+    
+    /* into */
+
+    .intro{
+        height: 250px;
+        width: 250px;
+        border: 1px solid #ca8a04;
+        transform: translateY(-20px);
+        position: relative;
+    }
+
+
+    .intro img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        z-index: 5;
+    }
+
+
+    .intro-overlap{
+        height: 220px;
+        width: 240px;
+        background-color: #f8fafc;
+        position: relative;
+        z-index: 6;
+        top: 12rem;
+        left: 1rem;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 1.8px solid #ca8a04;
+    }
+
+    .intro-overlap h1{
+          font-family: worksans5;
+          color: #ca8a04;
+          font-size: 1rem;
+    }
+
+    .intro-overlap p{
+          font-family: worksans5;
+          color: #09090bcf;
+          font-size: 0.8rem;
+          text-align: center;
+    }
+
+     .intro-overlap strong{
+          color: #4f46e5;
+     } 
+
+
+
+
+
+
+
+
+
+                    /* section3-main */
+
+
+
+                    .section3-Feature{
+                        min-height: 300px;
+                        width: 100%;
+                        transform: translateY(190px);
+                        text-align: center;
+                        position: relative;
+                    }
+
+
+                    .section3-Feature .feature-h1{
+                          font-size: 1.1rem;
+                          font-family: ttroman;
+                          font-weight: 888;
+                          color: #ca8a04;
+                          position: relative;
+                          z-index: 5;
+                          display: inline-block;
+                          margin-top: 18px;
+                    }
+
+
+                    .section3-Feature .feature-h1::after{
+                        content: '';
+                        width: 50px;
+                        height: 35px;
+                        background: linear-gradient(#ca8a04,#f1f5f9);
+                        position: absolute;
+                        top: -20px;
+                        left: 0;
+                        z-index: -1;
+                        border-bottom-left-radius: 35px;
+                        border-top-right-radius: 35px;
+                        transform: rotate(10deg);
+                    }
+
+                    .section3-Feature p{
+                          font-size: 1.5rem;
+                          font-family: ttroman;
+                          font-weight: 888;
+                          color:#030712a8;
+                    }
+
+                        .feature-Inf{
+                            flex-basis: 50%;
+                        }
+
+                        .feature-box .featInf-h1{
+                            font-size: 1.2rem;
+                            margin-bottom: 1rem;
+                            font-family: ttroman;
+                            color: #ca8a04;
+                        }
+
+                    .feature-box{
+                        min-height: 300px;
+                        width: 100%;
+                        text-align: left;
+                        padding: 0 15px;
+                    
+                    }
+
+
+                    .feature-flexing{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 0.6em;
+                    }
+
+
+                    .fleximg i{
+                            color: #3730a3;
+                            font-size: 2rem;
+                            line-height: 30px;
+                            border: 1.2px solid #ca8a04;
+                    }
+
+                    .flex-p p{
+                        font-size: 1.2em;
+                        color: #020617ad;
+                    }
+
+
+
+
+                       
+
+                  
+     
+
+            @media (min-width : 475px){
+
+
+                .secmain-pdiv{
+                    transform: translateY(-220px);
+                }
+
+                .secmain-pdiv h1{
+                    font-size: 1.2rem;
+         
+             }
+             
+         
+             .secmain-pdiv p{
+                    font-size: 1.5rem;
+             }
+
+
+             .intro{
+                height: 300px;
+                width: 390px;
+                transform: translateY(-60px);
+            }
+        
+        
+            .intro-overlap{
+                height: 250px;
+                width: 250px;
+                top: 12rem;
+                left: 1rem;
+            }
+        
+            .intro-overlap h1{
+                  font-family: worksans5;
+                  color: #ca8a04;
+                  font-size: 1.2rem;
+            }
+        
+            .intro-overlap p{
+                  font-family: worksans5;
+                  color: #09090bcf;
+                  font-size: 0.9rem;
+            }
+       
+
+            }
+            @media (min-width : 640px){
+
+                .section2-anchordiv :nth-child(2){
+                    font-weight: 888;
+                    font-size: 1.4rem;
+                    
+                }
+            
+                .section2-anchordiv :nth-child(1){
+                       font-size: 1.2rem;
+                }
+
+
+                .section2-header .section2-btn{
+                    border: 1px solid #ca8a04;
+                    font-size: 1.6rem;
+                    color: #ca8a04;
+                }
+
+                .secmain-pdiv h1{
+                    font-size: 1.2rem;
+         
+             }
+             
+         
+             .secmain-pdiv p{
+                    font-size: 1.3rem;
+             }
+
+
+             .intro{
+                height: 350px;
+                width: 400px;
+                transform: translateY(-70px);
+            }
+        
+        
+            .intro-overlap{
+                height: 240px;
+                width: 240px;
+                top: 12rem;
+                left: 1rem;
+            }
+        
+            .intro-overlap h1{
+                  font-family: worksans5;
+                  color: #ca8a04;
+                  font-size: 1.2rem;
+            }
+        
+            .intro-overlap p{
+                  font-family: worksans5;
+                  color: #09090bcf;
+                  font-size: 0.9rem;
+            }
+
+
+
+
+
+
+            .section3-Feature .feature-h1{
+                font-size: 1.4rem;
+                margin-top: 18px;
+          }
+
+
+          .section3-Feature .feature-h1::after{
+              top: -23px;
+              border-bottom-left-radius: 40px;
+              border-top-right-radius: 40px;
+              transform: rotate(10deg);
+          }
+
+          .section3-Feature p{
+                font-size: 1.8rem;
+                font-weight: 666;
+                color:#030712a8;
+          }
+
+              .feature-Inf h1{
+                  font-size: 1.4rem;
+                  margin-bottom: 0.5em;
+              }
+
+
+
+          .fleximg i{
+                  font-size: 2rem;
+                  line-height: 30px;
+          }
+
+          .flex-p p{
+              font-size: 1.1em;
+              color: #020617ad;
+          }
+
+    
+            
+            }
+
+
+
+           
+
+        
+
+
+            @media (min-width : 768px){
+                .section2-anchordiv :nth-child(2){
+                    font-weight: 888;
+                    font-size: 1.8rem;
+                    
+                }
+            
+                .section2-anchordiv :nth-child(1){
+                       font-size: 1.6rem;
+                }
+
+                .section2-header .section2-btn{
+                    border: 1px solid #ca8a04;
+                    font-size: 1.8rem;
+                    color: #ca8a04;
+                }
+    
+    
+                .secmain-pdiv h1{
+                    font-size: 1.2rem;
+         
+             }
+             
+         
+             .secmain-pdiv p{
+                    font-size: 1.3rem;
+             }
+
+
+             .intro{
+                height: 350px;
+                width: 480px;
+                transform: translateY(20px);
+            }
+        
+        
+            .intro-overlap{
+                height: 255px;
+                width: 270px;
+                top: 12rem;
+                left: 1rem;
+            }
+        
+            .intro-overlap h1{
+                  font-family: worksans5;
+                  color: #ca8a04;
+                  font-size: 1.3rem;
+            }
+        
+            .intro-overlap p{
+                  font-family: worksans5;
+                  color: #09090bcf;
+                  font-size: 1rem;
+            }
+
+            .secmain-pdiv{
+                transform: translateY(-30px);
+            }
+
+
+
+            
+
+
+            .section3-Feature .feature-h1{
+                font-size: 1.5rem;
+                margin-top: 18px;
+          }
+
+
+          .section3-Feature .feature-h1::after{
+              top: -25px;
+              border-bottom-left-radius: 42px;
+              border-top-right-radius: 42px;
+              transform: rotate(10deg);
+          }
+
+          .section3-Feature p{
+                font-size: 1.9rem;
+                font-weight: 666;
+                color:#030712a8;
+          }
+
+              .feature-Inf h1{
+                  font-size: 1.6rem;
+                  margin-bottom: 0.9em;
+              }
+
+
+
+          .fleximg i{
+                  font-size: 2.2rem;
+                  line-height: 30px;
+          }
+
+          .flex-p p{
+              font-size: 1.2em;
+              color: #020617ad;
+          }
+
+
+          .feature-imgbox{
+               height: 600px;
+               width: 600px;
+               background-color: #f1f5f9;
+               background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url(theimages/mens\,hair.jpg);
+               background-position: center;
+               background-size: cover;
+               background-repeat: no-repeat;
+               flex: 1;
+          }
+
+
+
+          .feature-Inf{
+               display: flex;
+               flex-direction: row;
+               align-items: center;
+               justify-content: space-evenly
+              
+          }
+
+          .feature-box{
+            height: 650px;
+            width: 500px;
+            transform: translateY(25px);
+            flex: 1;
+          }
+
+            }
+
+
+            
+
+
+            @media (min-width : 1024px){
+                .section2-anchordiv :nth-child(2){
+                    font-weight: 888;
+                    font-size: 1.5rem;
+                    
+                }
+            
+                .section2-anchordiv :nth-child(1){
+                       font-size: 1.2rem;
+                       padding-bottom: 0.1em;
+                }
+
+                .section2-header .section2-btn{
+                    border: 1px solid #ca8a04;
+                    font-size: 1.9rem;
+                    color: #ca8a04;
+                }
+
+                .secmain-pdiv h1{
+                    font-size: 1.3rem;
+         
+             }
+             
+         
+             .secmain-pdiv p{
+                    font-size: 1.4rem;
+             }
+                
+
+             .intro{
+                height: 380px;
+                width: 560px;
+                transform: translateY(30px);
+            }
+        
+        
+            .intro-overlap{
+                height: 260px;
+                width: 280px;
+                top: 12rem;
+                left: 1rem;
+            }
+        
+            .intro-overlap h1{
+                  font-family: worksans5;
+                  color: #ca8a04;
+                  font-size: 1.3rem;
+            }
+        
+            .intro-overlap p{
+                  font-family: worksans5;
+                  color: #09090bcf;
+                  font-size: 1rem;
+            }
+    
+            
+            }
+            @media (min-width : 1280px){
+                .section2-anchordiv :nth-child(2){
+                    font-weight: 888;
+                    font-size: 2.2rem;
+                    
+                }
+            
+                .section2-anchordiv :nth-child(1){
+                       font-size: 1.9rem;
+                       padding-bottom: 0.1em;
+                }
+
+                .section2-header .section2-btn{
+                    border: 1px solid #ca8a04;
+                    font-size: 2rem;
+                    color: #ca8a04;
+                }
+
+                .secmain-pdiv h1{
+                    font-size: 1.6rem;
+         
+             }
+             
+         
+             .secmain-pdiv p{
+                    font-size: 1.8rem;
+             }
+
+
+             .intro{
+                height: 460px;
+                width: 800px;
+                transform: translateY(30px);
+            }
+
+
+          
+            
+            }
+            @media (min-width : 1536px){
+                .section2-anchordiv :nth-child(2){
+                    font-weight: 888;
+                    font-size: 2rem;
+                    
+                }
+            
+                .section2-anchordiv :nth-child(1){
+                       font-size: 1.8rem;
+                       padding-bottom: 0.2em;
+                }
+
+                .section2-header .section2-btn{
+                    border: 1px solid #ca8a04;
+                    font-size: 2rem;
+                    color: #ca8a04;
+                }
+
+                .secmain-pdiv h1{
+                    font-size: 1.8rem;
+         
+             }
+             
+         
+             .secmain-pdiv p{
+                    font-size: 1.7rem;
+             }
+
+             
+            
+            
+            }

@@ -1,0 +1,1133 @@
+
+
+
+
+
+
+
+
+        .hero-section{
+            margin-top: 10rem;
+            text-align: center;
+            height: 1000px;
+        }
+
+
+
+        .hero-section  .treat-h1{
+                color:  #ca8a04;
+                font-weight: 999;
+                font-family: ttnorms;
+                font-size: 1.2em;
+                margin-top: 2rem;
+                position: relative;
+                display: inline-block;
+        }
+
+               .treat-h1::after{
+                content: '';
+                position: absolute;
+                top: -20px;
+                left: 0;
+                z-index: -1;
+                background:linear-gradient(#ca8a04,#f8fafc);
+                width: 50px;
+                height: 35px;
+                border-top-left-radius: 35px;
+                border-bottom-right-radius: 35px;
+        }
+
+        .hero-section .treat-p{
+            text-align: center;
+            color: #030712a4;
+            font-weight:777;
+            font-family: hellight;
+            font-size: 1.1em;
+        }
+
+                /* left&right */
+
+                .hair-flex{
+                    height: 400px;
+                    width: 100%;
+                    padding: 8px 10px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5em;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+
+                .hair-flex .left{     
+                    height: 210px;
+                    width: 350px;
+                    flex: 1;
+                    font-weight: 888;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5em;
+                    text-align: left;
+                    padding: 0 10px;
+                }
+
+                .left-para{
+                    font-size: 0.9em;
+                    color: #09090ba9;
+                    font-weight: 999;
+                    font-family: hellight;
+                }
+
+                .right-para{
+                    font-size: 0.9em;
+                    color: #09090ba9;
+                    font-weight: 999;
+                    font-family: hellight;
+                }
+
+                .hair-flex .left a{
+                        color: #ca8a04;
+                        text-decoration: none;
+                        font-size: 1em;
+                        font-weight: 888;
+                        font-family: ttroman;
+                }
+
+                .hair-flex .Right{     
+                    height: 230px;
+                    width: 350px;
+                    flex: 1;
+                    color: #09090bad;
+                    font-weight: 888;
+                    font-size: 0.9em;
+                    text-align: left;
+                    padding: 5px 13px;
+                }
+
+
+
+                            /* imagewrap */
+
+
+
+                            .image-wrap{
+                                height: 500px;
+                                width: 370px;
+                                background-color:#f8fafc;
+                                display: grid;
+                                place-items: center;
+                            }
+
+
+                            .image-wrap-div{
+                                height: 90%;
+                                width: 90%;
+                                text-align: left;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 0.5em;
+                                background-color: #f8fafc;
+                            }
+
+                            .image-wrap-div .imgz{
+                                overflow: hidden;
+                                height: 68%;
+                                width: 100%;
+                            }
+
+                            .imgz img{
+                                height: 100%;
+                                width: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                            }
+
+
+                            .image-wrap-div h1{
+                                font-family: ttnorms;
+                                font-weight: 666;
+                                font-size: 1em;
+                                color: #ca8a04;
+                            }
+                            .image-wrap-div p{
+                                font-family: hellight;
+                                font-weight: 666;
+                                font-size: 0.8em;
+                                color: #09090bb0;
+                            }
+
+                            .image-wrap-div span{
+                                  color: #ca8a04;
+                                  font-family: ttnorms;
+                            }
+
+
+                         
+
+
+                                /* experience cost */
+
+
+                                .herosect2{
+                                    height: 280px;
+                                    width: 100%;
+                                    padding: 0 15px;
+                                }
+
+                                .swiper {
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                  }
+                              
+                                  .swiper-slide {
+                                    text-align: center;
+                                    font-size: 18px;
+                                    background: linear-gradient(300deg,#4f46e5,#f8fafc);
+                                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    overflow: hidden;
+                                  }
+                              
+                                  .swiper-slide img {
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                  }
+
+                                  .swiper-slide .swiper-h1{
+                                    font-size: 1.1em;
+                                    font-family: ttnorms;
+                                    color: #030712;
+                                  }
+
+                                 
+
+                                  .table-row{
+                                    display: table;
+                                    background-color: #f8fafc;
+                                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                    width: 100%;
+                                    border: 1px solid red;
+                                    font-size: 0.5em;
+                                    margin: 5px auto;
+                                    text-align: center;
+                                  }
+
+
+
+                                  .table-cell{
+                                        display: table-cell;
+                                        vertical-align: middle;
+                                        color: #ca8a04;
+                                        width: 30%;
+                                        text-align: center;
+                                  }
+
+                                  .table-cell h1{
+                                      font-size: 1rem;
+                                      font-family: ttnorms;
+                                  }
+                                  .table-cell p{
+                                      font-size: 1.6em;
+                                      font-family: ttnorms;
+                                      color: #0a0a0ab0;
+                                      font-family: hellight;
+                                      font-weight: 999;
+                                  }
+
+
+
+
+
+
+                                  /* footer */
+
+
+
+
+                                  .footer{
+                                    background: rgba( 250, 250, 250, 0.25 );
+                                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                    backdrop-filter: blur( 1.5px );
+                                    -webkit-backdrop-filter: blur( 1.5px );
+                                    border-radius: 10px;
+                                    border: 1px solid rgba( 255, 255, 255, 0.18 );
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 0.5em;
+                                    text-align: center;
+                                    justify-content: center;
+                                }
+        
+                                .footer h1{
+                                     font-weight: 900;
+                                     font-size: 1.4em;
+                                     font-family: ttroman;
+                                     color: #ca8a04;
+                                }
+                                .footer p{
+                                     font-weight: 900;
+                                     font-size: 1em;
+                                     font-family: ttroman;
+                                     color: #09090ba1;
+                                }
+        
+                                .footer a{
+                                    padding: 5px 9px;
+                                    border: 1px solid #ca8a04;
+                                    box-sizing: border-box;
+                                    color: #09090ba1;
+                                    background-color: #ca8a04;
+                                    width: 32%;
+                                    text-decoration: none;
+                                    margin: 0 auto;
+                                    background: rgba( 202, 138, 4, 0.8 );
+                                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                    backdrop-filter: blur( 9px );
+                                    -webkit-backdrop-filter: blur( 9px );
+                                    border-radius: 2px;
+                                }
+
+
+
+
+                    @media (min-width : 475px){
+
+                        .hero-section{
+                            margin-top: 12rem;
+                            height: 1030px;
+                        }
+
+                        .hero-section  .treat-h1{
+                            font-size: 1.3em;
+                            margin-top: 2rem;
+                    }
+            
+                           .treat-h1::after{
+                            content: '';
+                            width: 50px;
+                            height: 35px;
+                            border-top-left-radius: 35px;
+                            border-bottom-right-radius: 35px;
+                    }
+            
+                    .hero-section .treat-p{
+                        font-size: 1.18em;
+                    }
+                    /* left right */
+
+
+                    .hair-flex{
+                        height: 400px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.7em;
+                    }
+    
+                    .hair-flex .left{     
+                        height: 210px;
+                        width: 350px;
+                        display: flex;
+                        flex-direction: column;
+                    }
+    
+                    .left-para{
+                        font-size: 1em;
+                        color: #09090ba9;
+                        font-weight: 999;
+                    }
+    
+                    .right-para{
+                        font-size: 1em;
+                        font-family: hellight;
+                    }
+    
+                    .hair-flex .left a{
+                            color: #ca8a04;
+                            text-decoration: none;
+                            font-size: 1em;
+                            font-weight: 888;
+                    }
+    
+                    .hair-flex .Right{     
+                        height: 230px;
+                        width: 350px;
+                        font-weight: 888;
+                        font-size: 0.9em;
+                    }
+
+
+
+                                            /* imgwrapp */
+
+                                            .image-wrap{
+                                                height: 500px;
+                                                width: 470px;
+                                                margin-top: 2rem;
+                                            }
+                
+                
+                                            .image-wrap-div{
+                                                height: 90%;
+                                                width: 90%;
+                                                gap: 0.9em;
+                                            }
+                
+                                            .image-wrap-div .imgz{
+                                                height: 55%;
+                                                width: 100%;
+                                            }
+                
+                
+                
+                                            .image-wrap-div h1{
+                                                font-size: 1.2em;
+                                            }
+                                            .image-wrap-div p{
+                                                font-size: 0.9em;
+                                            }
+                
+                                            .image-wrap-div span{
+                                                  font-size: 1.1em;
+                                            }
+
+
+
+                                                /* experience cost  */
+
+
+                                            .herosect2{
+                                                height: 235px;
+                                                width: 100%;
+                                                padding: 0 15px;
+                                            }
+            
+                                          
+                                          
+            
+                                              .swiper-slide .swiper-h1{
+                                                font-size: 1.2em;
+                                              }
+            
+                                             
+            
+                                              .table-row{
+                                                font-size: 0.6em;
+                                                margin: 5px auto;
+                                              }
+            
+            
+                                              .table-cell h1{
+                                                  font-size: 1rem;
+                                                  font-family: ttnorms;
+                                              }
+                                              .table-cell p{
+                                                  font-size: 1.6em;
+                                              }
+
+
+
+
+
+
+                                              /* foooter */
+
+                                              .footer h1{
+                                                font-size: 1.5em;
+                                           }
+                                           .footer p{
+                                                font-size: 1.1em;
+                                           }
+                    
+                                           .footer a{
+                                               padding: 8px 12px;
+                                               width: 30%;
+                                               font-weight: 999;
+                                               font-family: ttroman;
+                                           }
+
+
+                    }
+
+
+
+
+
+
+
+
+
+                    @media (min-width : 640px){
+
+                        .hero-section{
+                            margin-top: 13rem;
+                            text-align: center;
+                            height: 1150px;
+                        }
+
+                        .hero-section  .treat-h1{
+                            font-size: 1.4em;
+                            margin-top: 2rem;
+                    }
+            
+                           .treat-h1::after{
+                            content: '';
+                            width: 50px;
+                            height: 35px;
+                            border-top-left-radius: 35px;
+                            border-bottom-right-radius: 35px;
+                    }
+            
+                    .hero-section .treat-p{
+                        font-size: 1.4em;
+                    }
+
+
+
+                                /* left right */
+
+
+                    .hair-flex{
+                        height: 500px;
+                    }
+    
+                    .hair-flex .left{     
+                        height: 210px;
+                        width: 350px;
+                    }
+    
+                    .left-para{
+                        font-size: 1.1em;
+                        color: #09090ba9;
+                        font-weight: 999;
+                        font-family: hellight;
+                    }
+    
+                    .right-para{
+                        font-size: 1.1em;
+                    }
+    
+                    .hair-flex .left a{
+                            font-size: 1.1em;
+                    }
+    
+                    .hair-flex .Right{     
+                        height: 230px;
+                        width: 350px;
+                        font-size: 0.9em;
+                    }
+
+
+
+                                        /* imgwrapp */
+
+                                        .image-wrap{
+                                            height: 500px;
+                                            width: 635px;
+                                            margin-top: 2rem;
+                                        }
+            
+            
+                                        .image-wrap-div{
+                                            height: 80%;
+                                            width: 90%;
+                                            gap: 0.9em;
+                                        }
+            
+                                        .image-wrap-div .imgz{
+                                            height: 60%;
+                                            width: 100%;
+                                        }
+            
+            
+            
+                                        .image-wrap-div h1{
+                                            font-size: 1.3em;
+                                        }
+                                        .image-wrap-div p{
+                                            font-size: 1em;
+                                        }
+            
+                                        .image-wrap-div span{
+                                              color: #ca8a04;
+                                              font-family: ttnorms;
+                                              font-size: 1.2em;
+                                        }
+
+
+
+
+
+
+
+                                        .herosect2{
+                                            height: 235px;
+                                            width: 100%;
+                                            padding: 0 15px;
+                                        }
+        
+                                      
+                                      
+        
+                                          .swiper-slide .swiper-h1{
+                                            font-size: 1.2em;
+                                          }
+        
+                                         
+        
+                                          .table-row{
+                                            font-size: 0.7em;
+                                            margin: 5px auto;
+                                          }
+        
+        
+                                          .table-cell h1{
+                                              font-size: 1.1rem;
+                                              font-family: ttnorms;
+                                          }
+                                          .table-cell p{
+                                              font-size: 1.5em;
+                                          }
+
+
+
+
+                                          /* .footer */
+
+
+                                  .footer h1{
+                                    font-size: 1.6em;
+                               }
+                               .footer p{
+                                    font-size: 1.2em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 9px;
+                                   width: 32%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.3em;
+                               }
+                    }
+
+
+
+
+                    @media (min-width : 768px){
+                        .hero-section{
+                            margin-top: 13.5rem;
+                            text-align: center;
+                            height: 1250px;
+                        }
+
+                        .hero-section  .treat-h1{
+                            font-size: 1.5em;
+                            margin-top: 2rem;
+                    }
+            
+                           .treat-h1::after{
+                            content: '';
+                            width: 50px;
+                            height: 35px;
+                            border-top-left-radius: 35px;
+                            border-bottom-right-radius: 35px;
+                    }
+            
+                    .hero-section .treat-p{
+                        font-size: 1.45em;
+                    }
+
+
+
+
+                                    /* left right */
+
+
+                    .hair-flex{
+                        height: 400px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+    
+                    .hair-flex .left{     
+                        height: 260px;
+                        width: 400px;
+                    }
+    
+                    .hair-flex .Right{     
+                        height: 290px;
+                        width: 450px;
+                    }
+
+                    .left-para{
+                        font-size: 1.2em;
+                        color: #09090ba9;
+                        font-weight: 999;
+                        font-family: hellight;
+                    }
+    
+                    .right-para{
+                        font-size: 1.2em;
+                        color: #09090ba9;
+                        font-weight: 999;
+                        font-family: hellight;
+                    }
+    
+                    .hair-flex .left a{
+                            color: #ca8a04;
+                            text-decoration: none;
+                            font-size: 1.1em;
+                            font-weight: 888;
+                    }
+
+
+
+
+                                /* imgwrapper */
+
+                    .image-wrap{
+                        height: 610px;
+                        width: 765px;
+                        margin-top: 2rem;
+                    }
+
+
+                    .image-wrap-div{
+                        height: 89%;
+                        width: 90%;
+                        gap: 0.9em;
+                    }
+
+                    .image-wrap-div .imgz{
+                        height: 60%;
+                        width: 100%;
+                    }
+
+
+
+                    .image-wrap-div h1{
+                        font-size: 1.4em;
+                    }
+                    .image-wrap-div p{
+                        font-size: 1.1em;
+                    }
+
+                    .image-wrap-div span{
+                          color: #ca8a04;
+                          font-family: ttnorms;
+                          font-size: 1.2em;
+                    }
+    
+
+
+
+
+
+
+                                /* expcost */
+
+
+                                .herosect2{
+                                    height: 235px;
+                                    width: 100%;
+                                    padding: 0 15px;
+                                }
+
+                              
+                              
+
+                                  .swiper-slide .swiper-h1{
+                                    font-size: 1.21em;
+                                  }
+
+                                 
+
+                                  .table-row{
+                                    font-size: 0.7em;
+                                    margin: 5px auto;
+                                  }
+
+
+                                  .table-cell h1{
+                                      font-size: 1.2rem;
+                                      font-family: ttnorms;
+                                  }
+                                  .table-cell p{
+                                      font-size: 1.5em;
+                                  }
+
+
+
+                                   /* .footer */
+
+
+                                   .footer h1{
+                                    font-size: 1.7em;
+                               }
+                               .footer p{
+                                    font-size: 1.3em;
+                               }
+       
+                               .footer a{
+                                   padding: 5px 10px;
+                                   width: 25%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.3em;
+                               }
+                    
+                    }
+
+
+                
+
+
+
+                    @media (min-width : 1024px){
+
+
+                        .hero-section{
+                            margin-top: 13.8rem;
+                            text-align: center;
+                            height: 1260px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        .hero-section  .treat-h1{
+                            font-size: 1.6em;
+                            margin-top: 2rem;
+                    }
+            
+                           .treat-h1::after{
+                            content: '';
+                            width: 50px;
+                            height: 35px;
+                            border-top-left-radius: 35px;
+                            border-bottom-right-radius: 35px;
+                    }
+            
+                    .hero-section .treat-p{
+                        font-size: 1.48em;
+                    }
+
+
+
+
+                                /* left */
+
+
+                                .hair-flex{
+                                    height: 400px;
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                
+                                .hair-flex .left{     
+                                    height: 260px;
+                                    width: 400px;
+                                    display: grid;
+                                    place-items: center;
+                                }
+                
+                                .hair-flex .Right{     
+                                    height: 290px;
+                                    width: 450px;
+                                    display: grid;
+                                    place-items: center;
+                                }
+            
+                                .left-para{
+                                    font-size: 1.3em;
+                                    color: #09090ba9;
+                                    font-weight: 999;
+                                    font-family: hellight;
+                                }
+                
+                                .right-para{
+                                    font-size: 1.3em;
+                                    color: #09090ba9;
+                                    font-weight: 999;
+                                    font-family: hellight;
+                                }
+                
+                                .hair-flex .left a{
+                                        color: #ca8a04;
+                                        text-decoration: none;
+                                        font-size: 1.2em;
+                                        font-weight: 888;
+                                }
+
+
+
+
+
+
+                                   /* imgwrapper */
+
+                    .image-wrap{
+                        height: 610px;
+                        width: 765px;
+                        margin-top: 2rem;
+                    }
+
+
+                    .image-wrap-div{
+                        height: 89%;
+                        width: 90%;
+                        gap: 0.9em;
+                    }
+
+                    .image-wrap-div .imgz{
+                        height: 60%;
+                        width: 100%;
+                       
+                    }
+
+
+
+                    .image-wrap-div h1{
+                        font-size: 1.4em;
+                    }
+                    .image-wrap-div p{
+                        font-size: 1.1em;
+                    }
+
+                    .image-wrap-div span{
+                          color: #ca8a04;
+                          font-family: ttnorms;
+                          font-size: 1.2em;
+                    }
+
+                        .imgz img{
+                               transition: all ease 0.5s;
+                        }
+
+                        .imgz:hover img{
+                              scale: 1.4;
+                              cursor: pointer;
+                              mix-blend-mode: luminosity;
+                        }
+
+
+
+
+                                            /* expcost */
+
+                        .herosect2{
+                            height: 235px;
+                            width: 100%;
+                            padding: 0 15px;
+                        }
+
+                      
+                      
+
+                          .swiper-slide .swiper-h1{
+                            font-size: 1.28em;
+                          }
+
+                         
+
+                          .table-row{
+                            font-size: 0.78em;
+                            margin: 5px auto;
+                          }
+
+
+                          .table-cell h1{
+                              font-size: 1.26rem;
+                              font-family: ttnorms;
+                          }
+                          .table-cell p{
+                              font-size: 1.56em;
+                          }
+
+
+
+
+
+                          /* footer */
+
+                          .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                           margin-bottom: 1em;
+                       }
+                    }
+
+
+
+                    @media (min-width : 1280px){
+
+                        .hero-section{
+                            margin-top: 13.9rem;
+                            text-align: center;
+                        }
+
+                        .hero-section  .treat-h1{
+                            font-size: 1.8em;
+                            margin-top: 2rem;
+                    }
+            
+                           .treat-h1::after{
+                            content: '';
+                            width: 50px;
+                            height: 35px;
+                            border-top-left-radius: 35px;
+                            border-bottom-right-radius: 35px;
+                    }
+            
+                    .hero-section .treat-p{
+                        font-size: 1.5em;
+                    }
+
+
+                    .hair-flex{
+                        height: 400px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+    
+                    .hair-flex .left{     
+                        height: 260px;
+                        width: 400px;
+                        display: grid;
+                        place-items: center;
+                    }
+    
+                    .hair-flex .Right{     
+                        height: 290px;
+                        width: 450px;
+                        display: grid;
+                        place-items: center;
+                    }
+
+                    .left-para{
+                        font-size: 1.5em;
+                        color: #09090ba9;
+                        font-weight: 999;
+                        font-family: hellight;
+                    }
+    
+                    .right-para{
+                        font-size: 1.5em;
+                        color: #09090ba9;
+                        font-weight: 999;
+                        font-family: hellight;
+                    }
+    
+                    .hair-flex .left a{
+                            color: #ca8a04;
+                            text-decoration: none;
+                            font-size: 1.3em;
+                            font-weight: 888;
+                    }
+
+
+
+
+
+
+
+
+                                /* expcost */
+
+
+                                .herosect2{
+                                    height: 265px;
+                                    width: 100%;
+                                    padding: 0 15px;
+                                }
+        
+                              
+                              
+        
+                                  .swiper-slide .swiper-h1{
+                                    font-size: 1.3em;
+                                  }
+        
+                                 
+        
+                                  .table-row{
+                                    font-size: 0.8em;
+                                    margin: 5px auto;
+                                  }
+        
+        
+                                  .table-cell h1{
+                                      font-size: 1.29rem;
+                                      font-family: ttnorms;
+                                  }
+                                  .table-cell p{
+                                      font-size: 1.6em;
+                                  }
+
+
+
+
+
+                                  /* .footer */
+
+
+                          .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                       }
+
+                    }
+
+
+
+                    @media (min-width : 1536px){
+
+                        .hero-section{
+                            margin-top: 14rem;
+                            text-align: center;
+                        }
+
+                        .hero-section  .treat-h1{
+                            font-size: 1.7em;
+                            margin-top: 2rem;
+                    }
+            
+                           .treat-h1::after{
+                            content: '';
+                            width: 50px;
+                            height: 35px;
+                            border-top-left-radius: 35px;
+                            border-bottom-right-radius: 35px;
+                    }
+            
+                    .hero-section .treat-p{
+                        font-size: 1.8em;
+                    }
+                    }
+
+

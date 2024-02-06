@@ -1,0 +1,801 @@
+
+
+
+            .Skincare{
+                   margin-top: 10rem;
+                   height: 1200px;
+                   width: 100%;
+                   border: 1px solid #000000;
+                   padding: 6px 9px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: flex-start;
+                   flex-direction: column;
+                   gap: 0.5em;
+            }
+
+            .img-div{
+                height: 20%;
+                width: 90%;
+                background-color: #444444;
+                overflow: hidden;
+            }
+
+            .img-div img{
+                   height: 100%;
+                   width: 100%;
+                   object-fit: cover;
+                   object-position: center;
+                   transition: ease 0.5s;
+            }
+
+            .img-div img:hover{
+                        mix-blend-mode: luminosity;
+            } 
+
+            .Details{
+                height: 75%;
+                width: 90%;
+                background-color: #ffffff;
+                border: 1px solid black;
+                text-align: left;
+            }
+
+            .Details h1{
+                  font-family: ttnorms;
+                  color: #ca8a04;
+                  font-size: 1em;
+                  padding: 0 6px;
+            }
+            .Details p{
+                  font-family: ttnorms;
+                  color: #09090ba9;
+                  font-size: 1em;
+                  padding: 0 6px;
+            }
+
+            .Details ul{
+                list-style-type: circle;
+            }
+
+            .Details li h2{
+                    font-size: 1em;
+                    font-family: ttnorms;
+                    color: #09090bc1;
+            }
+
+
+                /* experiencecost */
+
+
+
+                        .Exper-Cost{
+                            height: 700px;
+                            width: 100%;
+                            background: linear-gradient(rgba(238, 224, 224, 0.5),rgba(0,0,0,0.2)),url(theimages/marble[1]black.jpg);
+                            text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: flex-start;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-family: ttnorms;
+                            color: #f8fafc;
+                            font-size: 1.3em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               color: #f8fafca0;
+                               font-family: ttnorms;
+                               font-size: 1.1em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            background-color: #f8fafc;
+                            margin-top: 2em;
+                            margin-bottom: 2em;
+                        }
+
+
+
+                        .table-row{
+                            width: 100%;
+                            display: table;
+                            text-align: center;
+                            background-color: transparent;
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }
+
+
+
+                        .table-cell{
+                            display: table-cell;
+                            text-align: center;
+                            width: 30%;
+                            border-right: 1px solid red;
+                        }
+
+                        .table-cell h1{
+                              font-family: ttnorms;
+                              color: #0c0a09;
+                              font-size: 1.2em;
+                        }
+
+                        .table-cell p{
+                               font-family: ttnorms;
+                               color: #0c0a09bd;
+                               font-weight: 111;
+                               font-size: 1em;
+                        }
+
+
+                        .footer{
+                            background: rgba( 250, 250, 250, 0.25 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 1.5px );
+                            -webkit-backdrop-filter: blur( 1.5px );
+                            border-radius: 10px;
+                            border: 1px solid rgba( 255, 255, 255, 0.18 );
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.5em;
+                            text-align: center;
+                            justify-content: center;
+                        }
+
+                        .footer h1{
+                             font-weight: 900;
+                             font-size: 1.4em;
+                             font-family: ttroman;
+                             color: #ca8a04;
+                        }
+                        .footer p{
+                             font-weight: 900;
+                             font-size: 1em;
+                             font-family: ttroman;
+                             color: #09090ba1;
+                        }
+
+                        .footer a{
+                            padding: 5px 9px;
+                            border: 1px solid #ca8a04;
+                            box-sizing: border-box;
+                            color: #09090ba1;
+                            background-color: #ca8a04;
+                            width: 32%;
+                            text-decoration: none;
+                            margin: 0 auto;
+                            background: rgba( 202, 138, 4, 0.8 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 9px );
+                            -webkit-backdrop-filter: blur( 9px );
+                            border-radius: 2px;
+                        }
+
+
+            /* Responsiveness */
+
+            @media (min-width : 475px){
+
+                .Skincare{
+                    margin-top: 12rem;
+                    height: 1000px;
+                    flex-direction: column;
+                    gap: 0.5em;
+             }
+ 
+             .img-div{
+                 height: 20%;
+                 width: 90%;
+             }
+ 
+
+ 
+             .Details{
+                 height: 75%;
+                 width: 90%;
+             }
+ 
+             .Details h1{
+                   font-size: 1.1em;
+                   padding: 0 6px;
+             }
+             .Details p{
+                   font-size: 1em;
+                   padding: 0 6px;
+             }
+ 
+ 
+             .Details li h2{
+                     font-size: 1.1em;
+             }          
+
+
+
+                            /* experienceCost */
+
+
+
+
+                            
+                        .Exper-Cost{
+                            height: 700px;
+                            width: 100%;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-size: 1.5em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               font-size: 1.2em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            margin-top: 2em;
+                            margin-bottom: 2.5em;
+                        }
+
+
+
+                        .table-row{
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }              
+
+                        .table-cell h1{
+                              font-size: 1.3em;
+                        }
+
+                        .table-cell p{
+                               font-size: 1.1em;
+                        }
+
+
+
+                            /* footer */
+
+                        .footer h1{
+                            font-size: 1.5em;
+                       }
+                       .footer p{
+                            font-size: 1.1em;
+                       }
+
+                       .footer a{
+                           padding: 8px 12px;
+                           width: 30%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                       }
+
+            }
+
+
+            @media (min-width : 640px){
+
+
+                 .Skincare{
+                    margin-top: 12rem;
+                    height: 950px;
+                    flex-direction: column;
+                    gap: 0.5em;
+             }
+ 
+             .img-div{
+                 height: 30%;
+                 width: 80%;
+             }
+ 
+
+ 
+             .Details{
+                 height: 80%;
+                 width: 90%;
+             }
+ 
+             .Details h1{
+                   font-size: 1.2em;
+                   padding: 0 6px;
+             }
+             .Details p{
+                   font-size: 1.1em;
+                   padding: 0 6px;
+             }
+ 
+            
+ 
+             .Details li h2{
+                     font-size: 1.1em;
+             }
+
+
+
+
+
+                                    /* experienceCost */
+
+
+
+
+                            
+                        .Exper-Cost{
+                            height: 740px;
+                            width: 100%;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-size: 1.6em;
+                            margin-top: 1.5em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               font-size: 1.35em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            margin-top: 2em;
+                            margin-bottom: 2.5em;
+                        }
+
+
+
+                        .table-row{
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }              
+
+                        .table-cell h1{
+                              font-size: 1.35em;
+                        }
+
+                        .table-cell p{
+                               font-size: 1.15em;
+                        }
+
+
+
+                             /* .footer */
+
+
+                             .footer h1{
+                                font-size: 1.6em;
+                           }
+                           .footer p{
+                                font-size: 1.2em;
+                           }
+   
+                           .footer a{
+                               padding: 8px 9px;
+                               width: 32%;
+                               font-weight: 999;
+                               font-family: ttroman;
+                               font-size: 1.3em;
+                           }
+
+            }
+
+
+            @media (min-width : 768px){
+
+
+                 .Skincare{
+                    margin-top: 15rem;
+                    height: 890px;
+                    flex-direction: column;
+                    gap: 0.5em;
+             }
+ 
+             .img-div{
+                 height: 29%;
+                 width: 90%;
+             }
+ 
+
+ 
+             .Details{
+                 height: 75%;
+                 width: 90%;
+             }
+ 
+             .Details h1{
+                   font-size: 1.2em;
+                   padding: 5px 6px;
+             }
+             .Details p{
+                   font-size: 1.1em;
+                   padding: 0 6px;
+             }
+ 
+ 
+             .Details li h2{
+                     font-size: 1.2em;
+             }
+
+
+                                /* experienceCost */
+
+
+
+
+                            
+                        .Exper-Cost{
+                            height: 740px;
+                            width: 100%;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-size: 1.7em;
+                            margin-top: 1.7em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               font-size: 1.42em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            margin-top: 2em;
+                            margin-bottom: 2.5em;
+                        }
+
+
+
+                        .table-row{
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }              
+
+                        .table-cell h1{
+                              font-size: 1.42em;
+                        }
+
+                        .table-cell p{
+                               font-size: 1.25em;
+                        }
+
+
+
+
+
+                        /* .footer */
+
+
+                        .footer h1{
+                            font-size: 1.7em;
+                       }
+                       .footer p{
+                            font-size: 1.3em;
+                       }
+
+                       .footer a{
+                           padding: 5px 10px;
+                           width: 25%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.3em;
+                       }
+            }
+
+
+            @media (min-width : 1024px){
+                 .Skincare{
+                    margin-top: 15rem;
+                    height: 850px;
+                    flex-direction: column;
+                    gap: 0.5em;
+             }
+ 
+             .img-div{
+                 height: 50%;
+                 width: 80%;
+             }
+ 
+
+ 
+             .Details{
+                 height: 56%;
+                 width: 90%;
+             }
+ 
+             .Details h1{
+                   font-size: 1.3em;
+                   padding: 8px 6px;
+             }
+             .Details p{
+                   font-size: 1.2em;
+                   padding: 0 6px;
+             }
+ 
+             .Details ul{
+                 list-style-type: circle;
+             }
+ 
+             .Details li h2{
+                     font-size: 1.3em;
+             }
+
+
+                            /* experienceCost */
+
+
+
+
+                            
+                        .Exper-Cost{
+                            height: 740px;
+                            width: 100%;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-size: 1.8em;
+                            margin-top: 1.7em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               font-size: 1.49em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            margin-top: 2em;
+                            margin-bottom: 2.5em;
+                        }
+
+
+
+                        .table-row{
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }              
+
+                        .table-cell h1{
+                              font-size: 1.48em;
+                        }
+
+                        .table-cell p{
+                               font-size: 1.32em;
+                        }
+
+
+
+
+
+                          /* footer */
+
+                          .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                           margin-bottom: 1em;
+                       }
+            }
+
+
+
+
+            @media (min-width : 1280px){
+                 .Skincare{
+                    margin-top: 15rem;
+                    height: 1200px;
+                    flex-direction: column;
+                    gap: 0.5em;
+             }
+ 
+             .img-div{
+                 height: 60%;
+                 width: 90%;
+             }
+ 
+
+ 
+             .Details{
+                 height: 75%;
+                 width: 90%;
+             }
+ 
+             .Details h1{
+                   font-size: 1.6em;
+                   padding: 8px 6px;
+             }
+             .Details p{
+                   font-size: 1.6em;
+                   padding: 0 6px;
+             }
+ 
+             .Details ul{
+                 list-style-type: circle;
+             }
+ 
+             .Details li h2{
+                     font-size: 1.6em;
+             }
+
+
+
+                            
+                            /* experienceCost */
+
+
+
+
+                            
+                        .Exper-Cost{
+                            height: 780px;
+                            width: 100%;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-size: 1.85em;
+                            margin-top: 1.7em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               font-size: 1.52em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            margin-top: 2em;
+                            margin-bottom: 2.5em;
+                        }
+
+
+
+                        .table-row{
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }              
+
+                        .table-cell h1{
+                              font-size: 1.53em;
+                        }
+
+                        .table-cell p{
+                               font-size: 1.44em;
+                        }
+
+
+
+
+                         /* .footer */
+
+
+                         .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                       }
+            }
+
+
+
+
+            @media (min-width : 1536px){
+                 .Skincare{
+                    margin-top: 15rem;
+                    height: 1000px;
+                    flex-direction: column;
+                    gap: 0.5em;
+             }
+ 
+             .img-div{
+                 height: 55%;
+                 width: 90%;
+             }
+ 
+
+ 
+             .Details{
+                 height: 75%;
+                 width: 90%;
+             }
+ 
+             .Details h1{
+                   font-size: 1.7em;
+                   padding: 0 6px;
+             }
+             .Details p{
+                   font-size: 1.6em;
+                   padding: 0 6px;
+             }
+ 
+             .Details ul{
+                 list-style-type: circle;
+             }
+ 
+             .Details li h2{
+                     font-size: 1.7em;
+             }
+
+
+                              /* experienceCost */
+
+
+
+
+                            
+                        .Exper-Cost{
+                            height: 780px;
+                            width: 100%;
+                        }
+
+
+                        .Exper-Cost .Cost-h1{
+                            font-size: 1.89em;
+                            margin-top: 1.7em;
+                        }
+
+                        .Exper-Cost .exp-p{
+                               font-size: 1.55em;
+                               padding-top: 0.8em;
+                        }
+
+                        .cost-card{
+                            height: 70%;
+                            width: 80%;
+                            margin-top: 2em;
+                            margin-bottom: 2.5em;
+                        }
+
+
+
+                        .table-row{
+                            margin: 5px 0;
+                            padding: 5px 0;
+                        }              
+
+                        .table-cell h1{
+                              font-size: 1.58em;
+                        }
+
+                        .table-cell p{
+                               font-size: 1.49em;
+                        }
+            }
+

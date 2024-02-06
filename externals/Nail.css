@@ -1,0 +1,716 @@
+
+
+
+
+            
+
+        .Nails-Section{
+            margin-top: 12rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 0.5em;
+            height: 800px;
+            padding: 0 15px;
+        }
+           
+
+        .Nail-Inf{
+            width: 100%;
+            height: 90%;
+            background-color: #f8fafc;
+            padding: 5px 8px;
+        }
+
+
+        .Nail-Inf .Nail-h1{
+                font-size: 1.3em;
+                color: #ca8a04;
+                padding: 10px 0;
+                font-family: ttnorms;
+        }
+        .Nail-Inf .Nail-P{
+            font-size: 1em;
+            font-family: ttnorms;
+            color: #0c0a099f;
+            font-weight: 111;
+        }
+
+
+        .Nail-Inf ul{
+            list-style: circle;
+        }
+
+        .Nail-Inf li h1{
+            font-size: 1.1em;
+            color: #0c0a09ca;
+            font-family: ttnorms;
+            margin-top: 0.5em;
+        }
+        .Nail-Inf li p{
+            font-size: 0.8em;
+            color: #0c0a099f;
+            font-family: ttnorms;
+            font-weight: 111;
+        }
+
+
+                    /* Experience-Cost */
+
+
+
+                    .Experience-cost{
+                        height: 500px;
+                        width: 100%;
+                        background-image: linear-gradient(rgba(238,224,224,0.5),rgba(0,0,0,0.2)),url(theimages/marble[1]black.jpg);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 0.2em;
+                        text-align: center;
+                    }   
+
+
+                    .Cards{
+                        height: 80%;
+                        width: 80%;
+                        background-color: #f8fafc;
+                    }
+
+                    .table-row{
+                        display: table;
+                        text-align: center;
+                        width: 100%;
+                        margin-top: 0.5em;
+                        padding: 3px 0;
+                        background-color: transparent;           
+                    }
+
+                    .table-cell{
+                        width: 30%;
+                        display: table-cell;
+                        text-align: center;
+                        vertical-align: middle;
+                        border-right: 1px solid red;
+                    }
+
+                    .Cost-h1{
+                        font-family: ttnorms;
+                        color: #f8fafc;
+                        font-size: 1rem;
+                    }
+                    .Cost-p{
+                        font-family: ttnorms;
+                        color: #f8fafcb8;
+                        font-weight: 111;
+                        font-size: 0.875rem;
+                    }
+
+                    .table-cell .table-h1{
+                        font-family: ttnorms;
+                        color: #0c0a09;
+                        font-size: 1rem;
+                    }
+                    .table-cell .table-p{
+                            font-family: ttnorms;
+                            color: #0c0a09a8;
+                            font-weight: 111;
+                            font-size: 0.875rem;
+                    }
+
+
+
+
+
+
+                    /* Animations */
+
+                        .Animation {
+                            height: 120px;
+                            width: 100%;
+                            background-color: #f8fafc;
+                            white-space: nowrap;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            overflow-x: auto;
+                            overflow-y: hidden;
+                            animation-name: move;                        
+                        }
+
+                        .Animation::-webkit-scrollbar{
+                            display: none;
+                        }
+
+                        .Animation h1{
+                            display: inline-block;
+                            font-family: ttnorms;
+                            font-size: 3rem;
+                            margin-right: 30px;
+                            animation-name: move;
+                            animation-iteration-count: infinite;
+                            animation-duration: 6s;
+                            animation-timing-function: linear;
+                        }
+
+                        .Animation h1 span{
+                               background-color: #ca8a04;
+                               color: #0c0a09c5;
+                               font-family: ttnorms;
+                               padding: 10px 9px;
+                               font-size: 3rem;
+                               position: relative;
+                               z-index: 1;
+                        }
+                    
+
+                        .Animation  span::after{
+                            content: '';
+                            position: absolute;
+                            border: 1.5px solid #ca8a04;
+                            display: inline-block;
+                            z-index: -1;
+                            width:  269px;
+                            height: 95px;
+                            top: -8px;
+                            left: -4px;
+                        }
+
+
+
+
+
+
+
+
+                        /* footer */
+
+
+
+
+                        .footer{
+                            background: rgba( 250, 250, 250, 0.25 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 1.5px );
+                            -webkit-backdrop-filter: blur( 1.5px );
+                            border-radius: 10px;
+                            border: 1px solid rgba( 255, 255, 255, 0.18 );
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.5em;
+                            text-align: center;
+                            justify-content: center;
+                        }
+
+                        .footer h1{
+                             font-weight: 900;
+                             font-size: 1.4em;
+                             font-family: ttroman;
+                             color: #ca8a04;
+                        }
+                        .footer p{
+                             font-weight: 900;
+                             font-size: 1em;
+                             font-family: ttroman;
+                             color: #09090ba1;
+                        }
+
+                        .footer a{
+                            padding: 5px 9px;
+                            border: 1px solid #ca8a04;
+                            box-sizing: border-box;
+                            color: #09090ba1;
+                            background-color: #ca8a04;
+                            width: 32%;
+                            text-decoration: none;
+                            margin: 0 auto;
+                            background: rgba( 202, 138, 4, 0.8 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 9px );
+                            -webkit-backdrop-filter: blur( 9px );
+                            border-radius: 2px;
+                        }
+
+
+         /* Responsiveness */
+
+         @media (min-width : 475px){
+
+            .Nails-Section{
+                margin-top: 12rem;
+                gap: 0.5em;
+                height: 800px;
+            }
+               
+    
+            .Nail-Inf{
+                width: 100%;
+                height: 90%;
+            }
+    
+    
+            .Nail-Inf .Nail-h1{
+                    font-size: 1.125rem;
+                    color: #ca8a04;
+            }
+            .Nail-Inf .Nail-P{
+                font-size: 1rem;
+            }
+    
+    
+    
+            .Nail-Inf li h1{
+                font-size: 1.125rem;
+                margin-top: 0.5em;
+            }
+            .Nail-Inf li p{
+                font-size: 0.8em;
+            }
+
+
+                            /* Experience Cost */
+
+
+                            .Experience-cost{
+                                height: 580px;
+                                gap: 0.8em;
+                            }   
+        
+        
+                            .Cards{
+                                height: 80%;
+                                width: 80%;
+                            }
+        
+        
+        
+                            .Cost-h1{
+                                font-size: 1.125rem;
+                            }
+                            .Cost-p{
+                                font-size: 1rem;
+                            }
+        
+                            .table-cell .table-h1{
+                                font-size: 1.125rem;
+                            }
+                            .table-cell .table-p{   
+                                    font-size: 1rem;
+                            }
+
+
+
+
+
+
+                              /* footer */
+
+                        .footer h1{
+                            font-size: 1.5em;
+                       }
+                       .footer p{
+                            font-size: 1.1em;
+                       }
+
+                       .footer a{
+                           padding: 8px 12px;
+                           width: 30%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                       }
+         }
+        @media (min-width : 640px){
+
+            .Nails-Section{
+                margin-top: 12rem;
+                gap: 0.8em;
+                height: 900px;
+            }
+               
+    
+            .Nail-Inf{
+                width: 100%;
+                height: 90%;
+            }
+    
+    
+            .Nail-Inf .Nail-h1{
+                    font-size: 1.25rem;
+                    color: #ca8a04;
+            }
+            .Nail-Inf .Nail-P{
+                font-size: 1.125rem;
+            }
+    
+    
+    
+            .Nail-Inf li h1{
+                font-size: 1.25rem;
+                margin-top: 1rem;
+            }
+            .Nail-Inf li p{
+                font-size: 0.8em;
+            }
+
+
+
+                    /* Experience-Cost */
+
+
+            .Experience-cost{
+                height: 580px;
+                gap: 0.8em;
+            }   
+
+
+            .Cards{
+                height: 80%;
+                width: 80%;
+            }
+
+
+
+            .Cost-h1{
+                font-size: 1.25rem;
+            }
+            .Cost-p{
+                font-size: 1.125rem;
+            }
+
+            .table-cell .table-h1{
+                font-size: 1.25rem;
+            }
+            .table-cell .table-p{   
+                    font-size: 1.125rem;
+            }           
+
+
+                         /* .footer */
+
+
+                         .footer h1{
+                            font-size: 1.6em;
+                       }
+                       .footer p{
+                            font-size: 1.2em;
+                       }
+
+                       .footer a{
+                           padding: 8px 9px;
+                           width: 32%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.3em;
+                       }
+        }
+        @media (min-width : 768px){
+
+            .Nails-Section{
+                margin-top: 12rem;
+                gap: 0.8em;
+                height: 1000px;
+            }
+               
+    
+            .Nail-Inf{
+                width: 100%;
+                height: 90%;
+            }
+    
+    
+            .Nail-Inf .Nail-h1{
+                    font-size: 1.25rem;
+                    color: #ca8a04;
+            }
+            .Nail-Inf .Nail-P{
+                font-size: 1.125rem;
+            }
+    
+    
+    
+            .Nail-Inf li h1{
+                font-size: 1.25rem;
+                margin-top: 1rem;
+            }
+            .Nail-Inf li p{
+                font-size: 0.8em;
+            }
+
+
+
+                        /* .Experience-cost */
+
+
+
+                        .Experience-cost{
+                            height: 590px;
+                            gap: 0.8em;
+                        }   
+            
+            
+                        .Cards{
+                            height: 80%;
+                            width: 80%;
+                        }
+            
+            
+            
+                        .Cost-h1{
+                            font-size: 1.5rem;
+                        }
+                        .Cost-p{
+                            font-size: 1.25rem;
+                        }
+            
+                        .table-cell .table-h1{
+                            font-size: 1.5rem;
+                        }
+                        .table-cell .table-p{   
+                                font-size: 1.25rem;
+                        }
+
+
+
+
+                                     /* .footer */
+
+
+                        .footer h1{
+                            font-size: 1.7em;
+                       }
+                       .footer p{
+                            font-size: 1.3em;
+                       }
+
+                       .footer a{
+                           padding: 5px 10px;
+                           width: 25%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.3em;
+                       }
+        }
+        @media (min-width : 1024px){
+            .Nails-Section{
+                margin-top: 12rem;
+                gap: 0.8em;
+                height: 1200px;
+            }
+               
+    
+            .Nail-Inf{
+                width: 100%;
+                height: 90%;
+            }
+    
+    
+            .Nail-Inf .Nail-h1{
+                    font-size: 1.5rem;
+                    color: #ca8a04;
+            }
+            .Nail-Inf .Nail-P{
+                font-size: 1.25rem;
+            }
+    
+    
+    
+            .Nail-Inf li h1{
+                font-size: 1.5rem;
+                margin-top: 1rem;
+            }
+            .Nail-Inf li p{
+                font-size: 1.25rem;
+            }
+
+
+
+
+                        /* .Experience-cost */
+
+
+
+                        .Experience-cost{
+                            height: 590px;
+                            gap: 0.8em;
+                        }   
+            
+            
+                        .Cards{
+                            height: 80%;
+                            width: 80%;
+                        }
+            
+            
+            
+                        .Cost-h1{
+                            font-size: 1.875rem;
+                        }
+                        .Cost-p{
+                            font-size: 1.5rem;
+                        }
+            
+                        .table-cell .table-h1{
+                            font-size: 1.875rem;
+                        }
+                        .table-cell .table-p{   
+                                font-size: 1.5rem;
+                        }
+
+
+
+
+                             /* footer */
+
+                          .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                           margin-bottom: 1em;
+                       }
+        }
+        @media (min-width : 1280px){
+            .Nails-Section{
+                margin-top: 12rem;
+                gap: 0.8em;
+                height: 1300px;
+            }
+               
+    
+            .Nail-Inf{
+                width: 100%;
+                height: 90%;
+            }
+    
+    
+            .Nail-Inf .Nail-h1{
+                    font-size: 1.5rem;
+                    color: #ca8a04;
+            }
+            .Nail-Inf .Nail-P{
+                font-size: 1.25rem;
+            }
+    
+    
+    
+            .Nail-Inf li h1{
+                font-size: 1.5rem;
+                margin-top: 1rem;
+            }
+            .Nail-Inf li p{
+                font-size: 1.25rem;
+            }
+
+
+
+             /* .Experience-cost */
+
+
+
+             .Experience-cost{
+                height: 680px;
+                gap: 0.8em;
+            }   
+
+
+            .Cards{
+                height: 80%;
+                width: 80%;
+            }
+
+
+
+            .Cost-h1{
+                font-size: 2.25rem;
+            }
+            .Cost-p{
+                font-size: 1.875rem;
+            }
+
+            .table-cell .table-h1{
+                font-size: 2.25rem;
+            }
+            .table-cell .table-p{   
+                    font-size: 1.875rem;
+            }       
+
+
+
+
+
+
+                         /* .footer */
+
+
+                         .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                       }
+        }
+        @media (min-width : 1536px){
+            .Nails-Section{
+                margin-top: 12rem;
+                gap: 0.8em;
+                height: 1500px;
+            }
+               
+    
+            .Nail-Inf{
+                width: 100%;
+                height: 90%;
+            }
+    
+    
+            .Nail-Inf .Nail-h1{
+                    font-size: 1.875rem;
+                    color: #ca8a04;
+            }
+            .Nail-Inf .Nail-P{
+                font-size: 1.5rem;
+            }
+    
+    
+    
+            .Nail-Inf li h1{
+                font-size: 1.875rem;
+                margin-top: 1rem;
+            }
+            .Nail-Inf li p{
+                font-size: 1.5rem;
+            }
+        }
+         
+
+
+
+
+
+        @keyframes move {
+                0%{
+                      transform: translateX(0);
+                }
+
+                100%{
+                         transform: translateX(calc(-100% - 34px));
+                }
+        }

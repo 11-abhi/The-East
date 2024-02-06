@@ -1,0 +1,582 @@
+.testimonals1{
+    min-height: 220vh;
+    width: 100%;
+    transform: translateY(150px);
+    background-image: url(theimages/marble[2]golden\ white.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;   
+}
+
+.testimonal-imgdiv{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.testimonal-imgdiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.testimonals-review{
+        height: 700px;
+        width: 100%;
+}
+
+
+.testimonals-review{
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.testimonals-review .testReview-h1{
+        font-family: worksans5;
+        font-size: 1.2rem;
+        font-weight: 888;
+        color: #ca8a04;
+        position: relative;
+        z-index: 5;
+        display: inline-block;
+}
+
+.testimonals-review .testReview-h1::after{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 35px;
+        top: -20px;
+        left: 0;
+        background: linear-gradient(#ca8a04,#f8fafc);
+        z-index: -1;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+
+}
+
+.testimonals-review p{
+       font-family: worksans5;
+       color: #09090bb1;
+       font-weight: 888;
+       font-size: 1.2rem;
+}
+
+
+
+.testiRev-div{
+        max-width: 100%;
+         min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+}
+
+
+.card{
+    height: 200px;
+    flex:  0 0 200px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: -5px 16px 32px rgba(0,0,0,0.25);
+    transition: transform 250ms;
+    overflow: hidden;
+    background: rgba( 248, 250, 252, 0.5 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+
+.header1-card{
+      width: 100%;
+      height: 60px;
+      padding: 5px 6px;
+}
+
+.card-img{
+    height: 100%;
+    width: 22%;
+    background-color: #ca8a04;
+}
+
+.card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header1-card{
+    display: flex;
+    flex-direction: row;
+    gap: 0.6em;
+}
+
+.card-indetity{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.card-indetity span{
+    color: #0ea5e9;
+}
+
+.card-indetity h1{
+      color: #09090b;
+      font-size: 1.2em;
+      font-family: ttroman;
+}
+
+
+.card .card-p{
+    font-size: 0.9em;
+    text-align: left;
+    padding-top: 3px;
+    font-family: worksans5;
+}
+
+
+.testiRev-div .card5{
+    display: none;
+}
+.testiRev-div .card6{
+    display: none;
+}
+.testiRev-div .card4{
+    display: none;
+}
+.testiRev-div .card3{
+    display: none;
+}
+
+
+
+
+/* responsiveness */
+
+
+
+@media (min-width : 475px){
+
+
+    .testimonals1{
+          min-height: 218vh !important;
+    }
+    
+    
+    .testimonals-review .testReview-h1{
+            font-size: 1.3rem;
+    }
+    
+    .testimonals-review .testReview-h1::after{
+            width: 50px;
+            height: 35px;
+            top: -22px;
+            left: 0;
+            z-index: -1;
+            border-bottom-left-radius: 35px;
+            border-top-right-radius: 35px;
+    }
+    
+    .testimonals-review p{
+           font-weight: 888;
+           font-size: 1.4rem;
+    }
+    
+    
+    
+    .testiRev-div{
+            max-width: 100%;
+             min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+            overflow: scroll;
+    }
+    
+    
+    .card{
+        height: 200px;
+        flex:  0 0 200px;
+        width: 300px;
+        border-radius: 8px;
+        box-shadow: -5px 16px 32px rgba(0,0,0,0.25);
+        transition: transform 250ms;
+        padding: 0 5px;
+    }
+    
+    
+    .card-img{
+        height: 100%;
+        width: 22%;
+        background-color: #ca8a04;
+    }
+    
+    .card-indetity span{
+        color: #0ea5e9;
+    }
+    
+    .card-indetity h1{
+          color: #09090b;
+          font-size: 1.2em;
+          font-family: ttroman;
+    }
+    
+    
+    .card .card-p{
+        font-size: 0.9em;
+        text-align: left;
+        padding-top: 4px;
+    }
+
+    .testimonals1{
+        min-height: 252vh; 
+    }
+}
+
+
+@media (min-width : 640px){
+
+
+.testimonals-review .testReview-h1{
+        font-size: 1.4rem;
+}
+
+.testimonals-review .testReview-h1::after{
+        width: 50px;
+        height: 35px;
+        top: -24px;
+        left: 0;
+        z-index: -1;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+}
+
+.testimonals-review p{
+       font-weight: 888;
+       font-size: 1.5rem;
+       font-family: ttroman;
+}
+
+
+
+.testiRev-div{
+        max-width: 100%;
+         min-height: 400px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        overflow: scroll;
+}
+
+
+.card{
+    height: 260px;
+    flex:  0 0 260px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: -5px 16px 32px rgba(0,0,0,0.25);
+    transition: transform 250ms;
+    padding: 0 5px;
+}
+
+.testiRev-div .card1{
+        display: none;
+}
+
+
+.card-img{
+    height: 100%;
+    width: 22%;
+    background-color: #ca8a04;
+}
+
+.card-indetity span{
+    color: #0ea5e9;
+    font-size: 1.1em;
+}
+
+.card-indetity .id-span{
+    font-size: 1em;
+    color: #09090b;
+}
+
+.card-indetity h1{
+      color: #09090b;
+      font-size: 1.3em;
+      font-family: ttroman;
+}
+
+
+.card .card-p{
+    font-size: 0.9em;
+    text-align: left;
+    padding-top: 18px;
+}
+
+.testiRev-div .card4{
+    display: block;
+}
+.testiRev-div .card3{
+    display: block;
+}
+
+.testiRev-div .card5{
+    display: block;
+}
+
+.card:not(:first-child){
+    margin-left: -110px;
+}
+
+.card:hover{
+  transform: translate(-8px,-16px) rotate(3deg);
+}
+
+.card:hover ~ .card{
+     transform: translateX(130px);
+}
+
+
+}
+
+
+@media (min-width : 768px){
+
+
+    .testimonals-review .testReview-h1{
+        font-size: 1.5rem;
+}
+
+.testimonals-review .testReview-h1::after{
+        width: 50px;
+        height: 35px;
+        top: -24px;
+        left: 0;
+        z-index: -1;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+}
+
+.testimonals-review p{
+       font-weight: 888;
+       font-size: 1.6rem;
+       font-family: ttroman;
+}
+
+
+
+.testiRev-div{
+        max-width: 100%;
+         min-height: 400px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        overflow: scroll;
+}
+
+.testiRev-div::-webkit-scrollbar{
+       display: none;
+}
+
+.card{
+    height: 260px;
+    flex:  0 0 290px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: -5px 16px 32px rgba(0,0,0,0.25);
+    transition: transform 250ms;
+    padding: 0 5px;
+}
+
+.testiRev-div .card1{
+        display: none;
+}
+
+
+.card-img{
+    height: 100%;
+    width: 22%;
+    background-color: #ca8a04;
+}
+
+.card-indetity span{
+    color: #0ea5e9;
+    font-size: 1.1em;
+}
+
+.card-indetity .id-span{
+    font-size: 1em;
+    color: #09090b;
+}
+
+.card-indetity h1{
+      color: #09090b;
+      font-size: 1.3em;
+      font-family: ttroman;
+}
+
+
+.card .card-p{
+    font-size: 0.9em;
+    text-align: left;
+    padding-top: 18px;
+}
+
+.testiRev-div .card1{
+    display: block;
+}
+
+
+.card:not(:first-child){
+      margin-left: -135px;
+}
+
+.card:hover{
+    transform: translate(-8px,-16px) rotate(3deg);
+}
+
+.card:hover ~ .card{
+       transform: translateX(130px);
+}
+
+.testiRev-div .card5{
+    display: block;
+}
+.testiRev-div .card6{
+    display: block;
+}
+
+
+
+}
+@media (min-width : 1024px){
+
+
+   
+
+    .testimonals-review .testReview-h1{
+        font-size: 1.6rem;
+}
+
+
+    .testimonals-review .testReview-h1::after{
+        width: 50px;
+        height: 35px;
+        top: -24px;
+        left: 0;
+        z-index: -1;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+}
+
+.testimonals-review p{
+       font-weight: 888;
+       font-size: 1.8rem;
+       font-family: ttroman;
+}
+
+
+
+.testiRev-div{
+        max-width: 100%;
+         min-height: 400px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        overflow: scroll;
+}
+
+
+.card{
+    height: 260px;
+    flex:  0 0 350px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: -5px 16px 32px rgba(0,0,0,0.25);
+    transition: transform 250ms;
+    padding: 0 5px;
+}
+
+.testiRev-div .card1{
+        display: none;
+}
+
+
+.card-img{
+    height: 100%;
+    width: 22%;
+    background-color: #ca8a04;
+}
+
+.card-indetity span{
+    color: #0ea5e9;
+    font-size: 1.1em;
+}
+
+.card-indetity .id-span{
+    font-size: 1em;
+    color: #09090b;
+}
+
+.card-indetity h1{
+      color: #09090b;
+      font-size: 1.3em;
+      font-family: ttroman;
+}
+
+
+.card .card-p{
+    font-size: 0.9em;
+    text-align: left;
+    padding-top: 18px;
+}
+
+.testiRev-div .card1{
+    display: block;
+}
+
+
+.card:not(:first-child){
+      margin-left: -135px;
+}
+
+.card:hover{
+    transform: translate(-8px,-16px) rotate(3deg);
+}
+
+.card:hover ~ .card{
+       transform: translateX(130px);
+}
+}
+@media (min-width : 1280px){
+}
+@media (min-width : 1536px){
+}

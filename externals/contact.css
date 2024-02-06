@@ -1,0 +1,728 @@
+
+
+
+
+
+        .contactus{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8em;
+        }
+
+        .contactus .contact-top{
+              background: linear-gradient(rgba(99, 102, 241),rgba(118, 120, 237,0.8));
+              height: 700px;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              gap: 2em;
+              align-items: center;
+              justify-content: first baseline;
+        }
+
+
+
+        .contact-top .headinng{
+            font-family: ttnorms;
+            color: #f8fafc;
+            font-weight: 888;
+            font-size: 1.125rem;
+            text-align: center;
+        }
+
+        .subtitle{
+            font-family: ttnorms;
+            color: #09090bbf;
+            font-weight: 888;
+            font-size: 0.875rem;
+            text-align: center;
+            max-width: 60ch;
+            margin: 0.5em  auto;
+        }
+
+
+                                /* formmaking */
+
+
+                                
+                                .form-bottom{
+                                    position: relative;
+                                    width: 100%;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    background-position: center;
+                                    padding: 10px 15px;
+                                } 
+
+                                .form-bottom header{
+                                       font-family: ttnorms;
+                                       color: #f8fafc;
+                                       font-weight: 888;
+                                       font-size: 0.875rem;
+                                       padding-bottom: 0.8em;
+                                       position: relative;
+                                       display: inline-block;
+                                }
+
+                                .form-bottom header::before{
+                                    content: '';
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 3px;
+                                    border-radius: 2px;
+                                    bottom: 0;
+                                    z-index: 1;
+                                    transform: translateY(-6px);
+                                    border-top-right-radius: 80px;
+                                    border-bottom-left-radius: 80px;
+                                    background:linear-gradient(200deg,#0ea5e9,#f1f5f9);
+                                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                                    backdrop-filter: blur( 4px );
+                                    -webkit-backdrop-filter: blur( 4px );
+                                }
+                                
+
+                                    form{
+                                        position: relative;
+                                        min-height: 490px;
+                                        background-color: #f8fafc;
+                                        padding: 26px 16px;
+                                        border-radius: 0.875rem;
+                                    }
+
+                                    form .fields{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: first baseline;
+                                        gap: 0.5em;
+                                        justify-content: center;
+                                        margin-bottom: 10px;
+                                    }
+
+                                    .fields .error{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: center;
+                                        gap: 0.5em;
+                                        color: #dc2626;
+                                        font-family: ttnorms;
+                                        font-weight: 333;
+                                        font-size: 0.875rem;
+                                        display: none;
+                                    }
+
+                                    .fields  .input-fields{
+                                          position: relative;
+                                          height: 55px;
+                                          width: 100%;
+                                          background-color: #0ea5e9;
+                                            border-radius: 10px;
+                                          overflow: hidden;
+                                    }
+                                    
+
+                                    .input-fields input{
+                                          height: 100%;
+                                          width: 100%;
+                                          border: 1px solid #0ea5e9;
+                                          outline: none;
+                                          border-radius: 10px;
+                                          padding: 5px 15px;
+                                          font-weight: 111;
+                                          font-size: 1rem;
+                                          color: #64748bc6;
+                                          font-family: ttnorms;
+                                    }
+
+                                    .input-fields input:focus{
+                                           border: 1.3px solid #ca8a04;
+                                    }
+
+                                
+                                    .fields .The-Message{
+                                        height: 90px;
+                                        width: 100%;
+                                    }
+
+                                    .fields textarea{
+                                        height: 100%;
+                                        width: 100%;
+                                        border-radius: 10px;
+                                        padding: 10px 15px;
+                                        font-family: ttnorms;
+                                        font-weight: 111;
+                                        font-size: 1rem;
+                                        color: #64748b;
+                                    }
+
+                                    
+
+                                    .button{
+                                        margin-top: 2rem;
+                                    }
+                                   
+
+                                    .button input{
+                                          height: 100%;
+                                          width: 100%;
+                                          display: inline-block;
+                                          width: 80%;
+                                          padding: 0.875rem 1.125rem;
+                                          background-color: #0ea5e9;
+                                          color: #f8fafc;
+                                          font-weight: 666;
+                                          font-size: 1.125rem;
+                                          cursor: pointer;
+                                          transition: background-color 300ms ease;
+                                    }
+
+                                    .button input:hover{
+                                        background-color: #075985;
+                                    }
+
+                                    .invalid  .error{
+                                        display: flex;
+                                    }
+                                   
+                                    .invalid input{
+                                        border-color: #dc2626;
+                                    }
+
+                                   /* textarea */
+
+
+                                      .field{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: first baseline;
+                                      }
+
+                                      nav{
+                                        display: flex;
+                                        align-items: center;
+                                        flex-direction: row;
+                                        font-family: ttnorms;
+                                        font-size: 0.875rem;
+                                        color: #dc2626;
+                                        visibility: hidden;
+                                      }
+
+                                        
+                                    .field.active nav{
+                                        visibility: visible;
+                                        color: #14b8a6;
+                                    }
+                                      
+                                    .field.error nav{
+                                        color: #dc2626;
+                                    }
+
+
+
+                                   .input-value{
+                                    position: relative;
+                                    height: 90px;
+                                    width: 100%;
+                                    background-color: #0ea5e9;
+                                    border-radius: 10px;
+                                    border: 1px solid #0ea5e9;
+                                    overflow: hidden;
+                                   }
+
+                                   .input-value textarea{
+                                    height: 100%;
+                                    width: 100%;
+                                    background-color: #f1f5f9;
+                                    border: 2px solid rgba(0,0,0,0.13);
+                                    outline: none;
+                                    border-radius: 10px;
+                                    resize: none;
+                                    padding: 10px 8px;
+                                    caret-color: #ca8a04;
+                                    font-family: ttnorms;
+                                    color: #64748b;
+                                    font-size: 1.040rem;
+                                    font-weight: 111;
+                                   }
+
+                                   .input-value textarea:focus{
+                                       border-color: #075985;
+                                   }
+
+                                   .input-value textarea::placeholder{
+                                         font-size: 1.020;
+                                         color:#64748b;
+                                   }
+
+
+                                   .form-headings{
+                                      font-family: ttnorms;
+                                      color: #0ea5e9;
+                                      font-size: 2.125rem;
+
+                                   }
+
+                                   .heading-divs{
+                                      height: 100px;
+                                      width: 100%;
+                                      background-color: #f8fafc;
+                                      padding: 10px 15px;
+                                      border-radius: 0.8em;
+                                      display: none;
+                                   }
+
+                                 
+                              
+                                        
+        @media (min-width : 475px){
+            .contactus{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contactus .contact-top{
+                  height: 780px;
+            }
+    
+    
+            .contact-top .headinng{
+                font-size: 1.25rem;
+            }
+    
+            .subtitle{
+                font-size: 1rem;
+            }
+                                                /* formbottom */
+                                              
+                
+                                                .form-bottom header{
+                                                       font-size: 1.125rem;
+                                                       padding-bottom: 0.8em;
+                                                }
+                
+                                                .form-bottom header::before{
+                                                    height: 4px;
+                                                }
+                                                
+                
+                
+                                                    form .fields{
+                                                        gap: 0.5em;
+                                                        justify-content: center;
+                                                        margin-bottom: 20px;
+                                                    }
+                
+                                                    
+                
+                                                    
+                
+                                                    .input-fields input{
+                                                          font-size: 1rem;  
+                                                    }
+                
+                                        
+                
+                                                    .fields textarea{
+                                                        font-size: 1rem;                                                       
+                                                    }
+                
+                                                    
+                
+                                                    .button{
+                                                        margin-top: 1rem;
+                                                    }
+                                                   
+                
+                                                    .button input{
+                                                          font-size: 1.125rem;
+                                                    }
+
+                
+                                                   /* textarea */
+                
+                
+                                                     
+                
+                                                      nav{
+                                                        font-size: 0.875rem;
+                                                      }
+                
+                                                        
+                                                   
+                
+                
+                
+                                                   
+                
+                                                   .input-value textarea{
+                                                    font-size: 1.040rem;
+                                                   }
+
+                                                   
+                
+                                                   .input-value textarea::placeholder{
+                                                         font-size: 1.020;
+                                                   }
+                
+                
+                                                   .form-headings{
+                                                      font-size: 2.125rem;
+                
+                                                   }
+                
+                                                
+        }
+        @media (min-width : 640px){
+            .contactus{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contactus .contact-top{
+                  height: 780px;
+            }
+    
+    
+            .contact-top .headinng{
+                font-size: 1.25rem;
+            }
+    
+            .subtitle{
+                font-size: 1rem;
+            }                                       
+
+            /* formbottom */
+                                              
+                
+                                                .form-bottom header{
+                                                       font-size: 1.25rem;
+                                                       padding-bottom: 0.8em;
+                                                }
+                
+                                                .form-bottom header::before{
+                                                    height: 4px;
+                                                    margin-bottom: 0.1em;
+                                                }
+                                                
+                                                    form .fields{
+                                                        gap: 0.5em;
+                                                        justify-content: center;
+                                                        margin-bottom: 20px;
+                                                    }
+            
+                
+                                                    .input-fields input{
+                                                          font-size: 1.125rem;  
+                                                    }
+                
+                                                    .fields .error{
+                                                          font-size: 1rem;
+                                                    }
+                                                    .fields textarea{
+                                                        font-size: 1.125rem;                                                       
+                                                    }
+                
+                                                    .button{
+                                                        margin-top: 1rem;
+                                                    }
+                                                   
+                                                    .button input{
+                                                          font-size: 1.125rem;
+                                                          width: 50%;
+
+                                                    }
+
+                                                   /* textarea */
+                
+                
+                                                      nav{
+                                                        font-size: 1rem;
+                                                      }
+                
+                
+                                                   .input-value textarea{
+                                                    font-size: 1.125rem;
+                                                   }
+
+                                                  
+                                                   .form-headings{
+                                                      font-size: 2.125rem;
+                                                   }
+        }
+        @media (min-width : 768px){
+            .contactus{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contactus .contact-top{
+                  height: 820px;
+            }
+    
+    
+            .contact-top .headinng{
+                font-size: 1.5rem;
+            }
+    
+            .subtitle{
+                font-size: 1.125rem;
+            }                                                               
+
+
+
+                                                                            
+            /* formbottom */
+                                              
+
+                                                .form-bottom{
+                                                    padding: 0 50px;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                }
+
+                                                form{
+                                                    min-height: 490px;
+                                                       width: 80%;
+                                                }
+
+                                                .form-bottom header{
+                                                    font-size: 1.25rem;
+                                                    padding-bottom: 0.8em;
+                                             }
+             
+                                             .form-bottom header::before{
+                                                 height: 4px;
+                                                 margin-bottom: 0.1em;
+                                             }
+                                             
+                                                 form .fields{
+                                                     gap: 0.5em;
+                                                     justify-content: center;
+                                                     margin-bottom: 20px;
+                                                 }
+         
+             
+                                                 .input-fields input{
+                                                       font-size: 1.125rem;  
+                                                 }
+             
+                                                 .fields .error{
+                                                       font-size: 1rem;
+                                                 }
+                                                 .fields textarea{
+                                                     font-size: 1.125rem;                                                       
+                                                 }
+             
+                                                 .button{
+                                                     margin-top: 1rem;
+                                                 }
+                                                
+                                                 .button input{
+                                                       font-size: 1.125rem;
+                                                       width: 50%;
+
+                                                 }
+
+                                                /* textarea */
+             
+             
+                                                   nav{
+                                                     font-size: 1rem;
+                                                   }
+             
+             
+                                                .input-value textarea{
+                                                 font-size: 1.125rem;
+                                                }
+
+                                               
+                                                .form-headings{
+                                                   font-size: 2.125rem;
+                                                }
+        }
+        @media (min-width : 1024px){
+            .contactus{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contactus .contact-top{
+                  height: 830px;
+            }
+    
+    
+            .contact-top .headinng{
+                font-size: 1.5rem;
+            }
+    
+            .subtitle{
+                font-size: 1.125rem;
+            }                                                       
+
+
+                                            /* formbottom */
+                                              
+
+                                            
+
+                                            form{
+                                                    min-height: 500px;
+                                                   width: 70%;
+                                                   margin-top: 1rem;
+                                            }
+
+                                            .form-bottom header{
+                                                font-size: 1.25rem;
+                                                padding-bottom: 1em;
+                                         }
+         
+                                         .form-bottom header::before{
+                                             height: 4px;
+                                             margin-bottom: 0.1em;
+                                         }
+                                         
+                                             form .fields{
+                                                 gap: 0.5em;
+                                                 justify-content: center;
+                                                 margin-bottom: 28px;
+                                             }
+     
+         
+                                             .input-fields input{
+                                                   font-size: 1.125rem;  
+                                             }
+         
+                                             .fields .error{
+                                                   font-size: 1rem;
+                                             }
+                                             .fields textarea{
+                                                 font-size: 1.125rem;                                                       
+                                             }
+         
+                                             .button{
+                                                 margin-top: 1rem;
+                                             }
+                                            
+                                             .button input{
+                                                   font-size: 1.125rem;
+                                                   width: 50%;
+
+                                             }
+
+                                            /* textarea */
+         
+         
+                                               nav{
+                                                 font-size: 1rem;
+                                               }
+         
+         
+                                            .input-value textarea{
+                                             font-size: 1.125rem;
+                                            }
+
+                                           
+                                            .form-headings{
+                                               font-size: 2.125rem;
+                                            }
+        }
+        @media (min-width : 1280px){
+            .contactus{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contactus .contact-top{
+                  height: 680px;
+                  flex-direction: row;
+            }
+    
+    
+            .contact-top .headinng{
+                font-size: 1.875rem;
+            }
+    
+            .subtitle{
+                font-size: 1.5rem;
+            }               
+
+
+
+
+
+                                                 /* formbottom */
+                                              
+
+                                            
+
+                                            form{
+                                                min-height: 500px;
+                                               width: 70%;
+                                               margin-top: 1rem;
+                                               padding: 40px 35px;
+                                        }
+
+                                        .form-bottom header{
+                                            font-size: 1.25rem;
+                                            padding-bottom: 1em;
+                                     }
+     
+                                     .form-bottom header::before{
+                                         height: 4px;
+                                         margin-bottom: 0.1em;
+                                     }
+                                     
+                                         form .fields{
+                                             gap: 0.5em;
+                                             justify-content: center;
+                                             margin-bottom: 28px;
+                                         }
+ 
+     
+                                         .input-fields input{
+                                               font-size: 1.125rem;  
+                                         }
+     
+                                         .fields .error{
+                                               font-size: 1rem;
+                                         }
+                                         .fields textarea{
+                                             font-size: 1.125rem;                                                       
+                                         }
+     
+                                         .button{
+                                             margin-top: 1rem;
+                                         }
+                                        
+                                         .button input{
+                                               font-size: 1.125rem;
+                                               width: 50%;
+
+                                         }
+
+                                        /* textarea */
+     
+     
+                                           nav{
+                                             font-size: 1rem;
+                                           }
+     
+     
+                                        .input-value textarea{
+                                         font-size: 1.125rem;
+                                        }
+
+                                       
+                                        .form-headings{
+                                           font-size: 2.125rem;
+                                        }
+
+                                         
+        }
+        @media (min-width : 1536px){}

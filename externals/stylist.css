@@ -1,0 +1,1100 @@
+
+
+
+
+
+
+.Stylist-sec{
+     margin-top: 1em;
+     height: 500px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 0.5em;
+     padding: 0 15px;
+} 
+
+
+.Stylist-sec .stylist-top{
+       height: 50%;
+       width: 100%;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       gap: 0.3em;
+       align-items: center;
+       justify-content: center;
+       padding: 1em 1.125em;
+}
+
+.stylist-h1{
+     font-family: domain;
+     color: #09090bda;
+     font-weight: 888;
+     font-size: 1.875rem;
+     letter-spacing: 0.1em;
+}
+.stylist-p{
+     font-family: ttnorms;
+     font-weight: 888;
+     font-size: 1rem;
+     letter-spacing: 0.1em;
+     color: #854e0ec2;
+}
+
+.stylist-top button >*{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: ttnorms;
+    padding: 0.5em 1.25em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #e5e7eb;
+}
+
+
+.stylist-top button{
+    background-color: #854e0ec2;
+    border: 0;
+    outline: none;
+}
+
+.stylist-contact >* {
+       color:#854e0ec2;
+       font-size: 1rem;
+       font-weight: 888;
+}
+
+
+.stylist-contact a{
+    text-decoration: none;
+    color:#09090bda;
+}
+
+ 
+
+
+/* stylist-bottom */
+
+
+.stylist-bottom{
+    height: 50%;
+    width: 100%;
+    background-color: #f8fafc;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1.8px solid  #854e0ec2 ;
+    display: grid;
+    place-items: center;
+}
+
+
+.stylist-bottom .table-box{
+    display: table;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+
+
+.table-box .table-cell{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      width: 30%;
+      padding: 0 15px;
+}
+
+
+.STL-BTM-h1{
+       font-size: 1rem;
+       color: #854e0ec2;
+       font-family: ttnorms;
+}
+
+.table-cell .cell-p{
+      font-family: ttnorms;
+      color: #09090bda;
+      font-size: 0.875rem;
+}
+
+
+
+
+
+                                                        /* paragraph */
+
+
+                                                        .stylist-info{
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            gap: 0.9em;
+                                                            padding: 0 1.25em;
+                                                            font-family: ttnorms;
+                                                            font-size: 1rem;
+                                                            color: #09090bab;
+                                                        }
+
+
+                                                       .st-info2{
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        gap: 0.6em;
+                                                       }
+
+
+                                                       .st-inf-h1{
+                                                          display: flex;
+                                                          flex-direction: column;
+                                                          align-items: center;
+                                                          justify-content: first baseline;
+                                                          gap: 3em;
+                                                       }
+
+
+                                                     
+
+
+                                                       .imgsalon{
+                                                        height: 500px;
+                                                        width: 600px;
+                                                        background-image: linear-gradient(rgba(248, 250, 252,0.5),rgba(10, 10, 10,0.5)),url(theimages/salons.jpg);
+                                                        background-position: center;
+                                                        background-repeat: no-repeat;
+                                                        background-size: cover;
+                                                        display: none;
+                                                       }
+
+                                  
+                                                       
+
+
+                                        /* .stylist-into                */
+
+
+                                        .stylist-brief{
+                                            margin-top: 3em;
+                                            text-align: center;
+                                            position: relative;
+                                            text-align: center;
+                                        }
+
+
+                                        .stylist-brief h2{
+                                            font-family: ttnorms;
+                                            font-size: 1rem;
+                                            color: #0a0a0ab2;
+                                            font-weight: 111;
+                                            text-transform: capitalize;
+                                        }
+
+                                        .stylist-brief .style-p{
+                                               color: #0206179b;
+                                               font-weight: 111;
+                                               font-family: ttnorms;
+                                               max-width: 60ch;
+                                               margin: 0 auto;
+                                               padding-bottom: 1em;
+                                        }
+
+
+
+
+                                        /* stylistgrid */
+
+
+                                        .stylist-grid{
+                                            height: auto;
+                                            width: 100%;
+                                            background-color: #f8fafc;
+                                            position: relative;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            justify-content: first baseline;
+                                        }
+
+
+                                        .the-headline{
+                                            font-weight: 888;
+                                            font-family: ttnorms;
+                                            font-size: 1rem;
+                                            color: #030712d7;
+                                            margin: 1rem 0;
+                                        }
+
+                                        .img-wrapper{
+                                            height: 300px;
+                                            width: 359px;
+                                            overflow: hidden;
+                                            position: relative;
+                                            padding: 0 0px;
+                                        }
+
+                                        .img-wrapper::after{
+                                                content: '';
+                                                position: absolute;
+                                                height: 100%;
+                                                width: 100%;
+                                                background-color: rgba(99, 102, 241,0.5);
+                                                z-index: 1;
+                                                top: 0;
+                                                left: 0;
+                                               transition: background-color 0.3s;
+                                        }
+
+                                        .img-wrapper:hover::after{
+                                              background-color: rgba(99, 102, 241,0.3) ;
+                                        }
+
+
+                                        .stylist-discription{
+                                            text-align: center;
+                                            font-size: 1rem;
+                                            color: #0206179b;
+                                            font-family: ttnorms;
+                                            max-width: 60ch;
+                                        }
+                                
+                                        .img-wrapper img{
+                                            height: 100%;
+                                            width: 100%;
+                                            object-fit: cover;
+                                            object-position: center;
+                                        }
+
+
+                                        .description{
+                                             margin-top: 1rem;
+                                        }
+
+
+                                        .subtitle{
+                                            display: none;
+                                        }
+
+
+
+
+
+
+
+                                         /* footer */
+
+
+
+
+                        .footer{
+                            background: rgba( 250, 250, 250, 0.25 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 1.5px );
+                            -webkit-backdrop-filter: blur( 1.5px );
+                            border-radius: 10px;
+                            border: 1px solid rgba( 255, 255, 255, 0.18 );
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.5em;
+                            text-align: center;
+                            justify-content: center;
+                        }
+
+                        .footer h1{
+                             font-weight: 900;
+                             font-size: 1.4em;
+                             font-family: ttroman;
+                             color: #ca8a04;
+                        }
+                        .footer p{
+                             font-weight: 900;
+                             font-size: 1em;
+                             font-family: ttroman;
+                             color: #09090ba1;
+                        }
+
+                        .footer a{
+                            padding: 5px 9px;
+                            border: 1px solid #ca8a04;
+                            box-sizing: border-box;
+                            color: #09090ba1;
+                            background-color: #ca8a04;
+                            width: 32%;
+                            text-decoration: none;
+                            margin: 0 auto;
+                            background: rgba( 202, 138, 4, 0.8 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 9px );
+                            -webkit-backdrop-filter: blur( 9px );
+                            border-radius: 2px;
+                        }
+
+@media (min-width : 475px){
+
+
+    .Stylist-sec{
+        height: 500px;
+   } 
+   
+   
+   .Stylist-sec .stylist-top{
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 0.3em;
+   }
+   
+   .stylist-h1{
+        font-size: 1.875rem;
+   }
+   .stylist-p{
+        font-size: 1.125rem;
+   }
+   
+   .stylist-top button >*{
+       font-size: 1rem;
+       padding: 0.5em 1.25em;
+   }
+   
+   
+   .stylist-contact >* {
+          font-size: 1.125rem;
+   }
+
+
+                            /* .stylist-bottom */
+
+
+                            .stylist-bottom{
+                                height: 50%;
+                                width: 100%;
+                            }
+                        
+                            
+                            
+                            .STL-BTM-h1{
+                                   font-size: 1rem;
+                            }
+                            
+                            .table-cell .cell-p{
+                                  font-size: 0.875rem;
+                            }
+
+
+
+
+
+                            /* paragraph */
+
+                            .stylist-info{
+                                display: flex;
+                                flex-direction: column;
+                                font-size: 1rem;
+                            }
+
+
+                           .st-info2{
+                            gap: 0.6em;
+                           }
+
+
+
+
+
+                             /* .stylist-into                */
+
+
+
+
+                            .stylist-brief h2{
+                                font-size: 1rem;
+                            }
+
+                            .stylist-brief p{
+                                font-size: 0.875rem;
+                            }
+
+                                /* stylelist flex */
+
+                            .stylist-grid{
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+
+                            .the-headline{
+                                font-size: 1.125rem;
+                            }
+
+
+
+
+                            .stylist-discription{
+                                font-size: 1rem;
+                            }
+                            
+
+
+
+
+                            /* footer */
+
+                        .footer h1{
+                            font-size: 1.5em;
+                       }
+                       .footer p{
+                            font-size: 1.1em;
+                       }
+
+                       .footer a{
+                           padding: 8px 12px;
+                           width: 30%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                       }
+                           
+
+
+
+}
+@media (min-width : 640px){
+    .Stylist-sec{
+        height: 500px;
+   } 
+   
+   
+   .Stylist-sec .stylist-top{
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 0.3em;
+   }
+   
+   .stylist-h1{
+        font-size: 1.875rem;
+   }
+   .stylist-p{
+        font-size: 1.125rem;
+   }
+   
+   .stylist-top button >*{
+       font-size: 1rem;
+       padding: 0.5em 1.25em;
+   }
+   
+   
+   .stylist-contact >* {
+          font-size: 1.125rem;
+   }
+
+
+                                      /* .stylist-bottom */
+
+
+                            .stylist-bottom{
+                                height: 50%;
+                                width: 100%;
+                            }
+                        
+                            
+                            
+                            .STL-BTM-h1{
+                                   font-size: 1.125rem;
+                            }
+                            
+                            .table-cell .cell-p{
+                                  font-size: 1rem;
+                            }
+
+                            /* paragraph */
+
+                            .stylist-info{
+                                display: flex;
+                                flex-direction: column;
+                                font-size: 1.125rem;
+                            }
+
+
+                           .st-info2{
+                            gap: 0.6em;
+                           }
+
+
+
+
+
+
+
+
+
+
+                                                 /* .stylist-into                */
+
+
+
+
+                            .stylist-brief h2{
+                                font-size: 1.125rem;
+                            }
+
+                            .stylist-brief p{
+                                font-size: 1rem;
+                            }
+
+
+
+
+
+                                             /* stylelist flex */
+
+                            .stylist-grid{
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                place-items: center;  
+                                gap: 0.5em;
+                                padding: 25px 0;
+                               }
+
+
+                   
+
+
+                            .img-wrapper {
+                                height: 400px;
+                                width: 100%;
+                            }
+
+
+                            .description{
+                                padding: 0 1rem;
+                       
+                            }
+
+
+                            .the-headline{
+                                font-size: 1.125rem;
+                                display: none;
+                            }
+
+
+
+
+                            .stylist-discription{
+                                font-size: 0.75rem;
+                            }
+
+
+                            .subtitle{
+                                display: block;
+                                font-family: ttnorms;
+                                color: #09090bdf;
+                                font-weight: 999;
+                                font-size: 1.125rem;
+                            }
+
+
+
+
+                             /* .footer */
+
+
+                         .footer h1{
+                            font-size: 1.6em;
+                       }
+                       .footer p{
+                            font-size: 1.2em;
+                       }
+
+                       .footer a{
+                           padding: 8px 9px;
+                           width: 32%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.3em;
+                       }
+}
+@media (min-width : 768px){
+    .Stylist-sec{
+        height: 500px;
+   } 
+   
+   
+   .Stylist-sec .stylist-top{
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5em;
+   }
+   
+   .stylist-h1{
+        font-size: 1.875rem;
+   }
+   .stylist-p{
+        font-size: 1.5rem;
+   }
+   
+   .stylist-top button >*{
+       font-size: 1rem;
+       padding: 0.5em 1.25em;
+   }
+   
+   
+   .stylist-contact >* {
+          font-size: 1.5rem;
+   }                                                    
+
+
+
+
+                            /* .stylist-bottom */
+
+                                            
+                            .stylist-bottom{
+                                height: 50%;
+                                width: 100%;
+                            }
+                        
+                            
+                            
+                            .STL-BTM-h1{
+                                   font-size: 1.5rem;
+                            }
+                            
+                            .table-cell .cell-p{
+                                  font-size: 1.125rem;
+                            }
+
+
+
+
+
+                            /* paragraph */
+
+
+                            .stylist-info{
+                                display: flex;
+                                flex-direction: column;
+                                font-size: 1.125rem;
+                            }
+
+
+                           .st-info2{
+                            gap: 0.6em;
+                           }
+
+
+
+
+
+                           
+                                                 /* .stylist-into                */
+
+
+
+
+                                                 .stylist-brief h2{
+                                                    font-size: 1.25rem;
+                                                }
+                    
+                                                .stylist-brief p{
+                                                    font-size: 1.125rem;
+                                                }
+                          
+
+
+                                                    /* grid: ; */
+                    
+                                       
+                    
+                    
+                                                .img-wrapper {
+                                                    height: 300px;
+                                                    width: 100%;
+                                                }
+                    
+                    
+                                                .description{
+                                                    padding: 0 1rem;
+                                           
+                                                }
+                    
+                    
+                                                .the-headline{
+                                                    font-size: 1.25rem;
+                                                    display: none;
+                                                }
+                    
+                    
+                    
+                    
+                                                .stylist-discription{
+                                                    font-size: 0.75rem;
+                                                }
+                    
+                    
+                                                .subtitle{
+                                                    font-size: 1.125rem;
+                                                }
+
+
+
+
+                                                
+                                     /* .footer */
+
+
+                        .footer h1{
+                            font-size: 1.7em;
+                       }
+                       .footer p{
+                            font-size: 1.3em;
+                       }
+
+                       .footer a{
+                           padding: 5px 10px;
+                           width: 25%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.3em;
+                       }
+}
+
+
+
+@media (min-width : 1024px){
+    .Stylist-sec{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+   } 
+   
+   
+   .Stylist-sec .stylist-top{
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          gap: 0.6em;
+   }
+   
+   .stylist-h1{
+        font-size: 1.875rem;
+   }
+   .stylist-p{
+        font-size: 1.5rem;
+   }
+   
+   .stylist-top button >*{
+       font-size: 1rem;
+       padding: 0.5em 1.25em;
+   }
+   
+   
+   .stylist-contact >* {
+          font-size: 1.5rem;
+   }
+
+
+                                                                   /* .stylist-bottom */
+
+                                            
+                            .stylist-bottom{
+                                height: 80%;
+                                width: 100%;
+                                display: grid;
+                                place-items: center;
+                            }
+                        
+                            
+                            
+                            .STL-BTM-h1{
+                                   font-size: 1.5rem;
+                            }
+                            
+                            .table-cell .cell-p{
+                                  font-size: 1.125rem;
+                            }
+
+
+
+
+                            /* paragraph */
+
+
+                            .stylist-info{
+                                display: flex;
+                                flex-direction: row;
+                                font-size: 1.25rem;
+                            }
+
+
+                           .st-info2{
+                            gap: 0.6em;
+                           }
+
+
+
+                           .imgsalon{
+                            height: 300px;
+                            width: 500px;
+                            display: block;
+                            overflow: hidden;
+                           }
+
+                           .imgsalon vedio{
+                            object-fit: cover;
+                            object-position: center;
+                            height: 100%;
+                            width: 100%;
+                         }
+
+
+
+
+
+
+                           /* .stylist-into                */
+
+
+
+
+                           .stylist-brief h2{
+                            font-size: 1.5rem;
+                        }
+
+                        .stylist-brief p{
+                            font-size: 1.25rem;
+                        }
+                        
+
+
+                                /* grid */
+
+
+                        .img-wrapper {
+                            height: 400px;
+                            width: 100%;
+                        }
+
+
+                        .description{
+                            padding: 0 1rem;
+                   
+                        }
+
+
+                        .the-headline{
+                            font-size: 1.5rem;
+                            display: none;
+                        }
+
+
+
+
+                        .stylist-discription{
+                            font-size: 0.75rem;
+                        }
+
+
+                        .subtitle{
+                            font-size: 1.125rem;
+                        }
+
+
+
+                        /* footer */
+
+                        .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                           margin-bottom: 1em;
+                       }
+
+
+}
+@media (min-width : 1280px){
+    .Stylist-sec{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+   } 
+   
+   
+   .Stylist-sec .stylist-top{
+          height: 90%;
+          display: flex;
+          flex-direction: column;
+          gap: 0.6em;
+   }
+   
+   .stylist-h1{
+        font-size: 1.875rem;
+   }
+   .stylist-p{
+        font-size: 1.5rem;
+   }
+   
+   .stylist-top button >*{
+       font-size: 1rem;
+       padding: 0.5em 1.25em;
+   }
+   
+   
+   .stylist-contact >* {
+          font-size: 1.5rem;
+   }                                                    
+
+
+                                                              /* .stylist-bottom */
+
+                                            
+                            .stylist-bottom{
+                                height: 90%;
+                                width: 100%;
+                                display: grid;
+                                place-items: center;
+                            }
+                        
+                            
+                            
+                            .STL-BTM-h1{
+                                   font-size: 1.5rem;
+                            }
+                            
+                            .table-cell .cell-p{
+                                  font-size: 1.125rem;
+                            }
+
+
+
+
+                            /* paragraph */
+
+
+                            .stylist-info{
+                                display: flex;
+                                flex-direction: row;
+                                font-size: 1.25rem;
+                            }
+
+
+                           .st-info2{
+                            gap: 0.6em;
+                           }
+
+
+
+                           .imgsalon{
+                            height: 400px;
+                            width: 560px;
+                            display: block;
+                            overflow: hidden;
+                           }
+
+                           .imgsalon vedio{
+                            object-fit: cover;
+                            object-position: center;
+                            height: 100%;
+                            width: 100%;
+                         }
+
+
+
+                                    /* grid */
+
+
+                        .img-wrapper {
+                            height: 360px;
+                            width: 60%;
+                        }
+
+
+                        .description{
+                            padding: 0 1rem;
+                   
+                        }
+
+
+                        .the-headline{
+                            font-size: 1.5rem;
+                            display: none;
+                        }
+
+
+
+
+                        .stylist-discription{
+                            font-size: 1.5rem;
+                        }
+
+
+                        .subtitle{
+                            font-size: 1.5rem;
+                        }
+
+
+
+                        /* .footer */
+
+
+                        .footer h1{
+                            font-size: 1.8em;
+                       }
+                       .footer p{
+                            font-size: 1.4em;
+                       }
+
+                       .footer a{
+                           padding: 8px 10px;
+                           width: 16%;
+                           font-weight: 999;
+                           font-family: ttroman;
+                           font-size: 1.4em;
+                       }
+}
+@media (min-width : 1536px){
+                /* grid */
+
+
+                .img-wrapper {
+                    height: 430px;
+                    width: 60%;
+                }
+
+
+                .description{
+                    padding: 0 1rem;
+           
+                }
+
+
+                .the-headline{
+                    font-size: 1.5rem;
+                    display: none;
+                }
+
+
+
+
+                .stylist-discription{
+                    font-size: 1.5rem;
+                }
+
+
+                .subtitle{
+                    font-size: 1.5rem;
+                }
+}

@@ -1,0 +1,445 @@
+
+
+
+
+
+
+
+                    .hero{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                .hero-right{
+                    height: 320px;
+                    width: 90%;
+                    background-color: #fafafa;
+                    border: 1px solid rgba( 255, 255, 255, 0.18 );
+                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                    margin-top: 1rem;
+                    padding: 10px 15px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5em;
+                    border-radius: 5px;
+                    }
+
+
+                    .hero-heading{
+                            font-family: ttroman;
+                            color: #ca8a04;
+                            font-size: 1.5em;
+                    }
+
+                    .hero-p{
+                          font-family: worksans5;
+                          font-size: 0.8em;
+                          color: #0c0a09ac;
+                    }
+
+                    .hero-right li{
+                        list-style: none;
+                    }
+                    .hero-right a{
+                        text-decoration: none;
+                        font-family: worksans5;
+                        border-bottom: 2px solid #ca8a04;
+                        color: #ca8a04;
+                    }
+
+
+
+
+                    /* Ratecards */
+
+
+                    .Rate-Card{
+                        height: 530px;
+                        width: 90%;
+                        background: rgba( 99, 102, 241, 0.35 );
+                        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.8);
+                        border-radius: 10px;
+                        border: 1px solid rgba( 255, 255, 255, 0.18);
+                        margin-top: 1rem;
+                    }
+
+
+                        .table-row{
+                               width: 100%;
+                               display: table;
+                               font-family: ttroman;
+                               background: #fafafa;
+                               padding: 2px 0;
+                               color: #ca8a04;
+                               box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                               font-size: 0.6em;
+                               margin-bottom: 0.5em;
+                        }
+
+                        .tabel-cell{
+                            display: table-cell;
+                            width: 30%;
+                            text-align: center;
+                            padding: 4px 0;
+                            border-right: 1px solid #ca8a04;
+                            vertical-align: middle;
+                        }
+
+
+
+                        .table-header{
+                            background: linear-gradient(90deg,#ca8a04,#818cf8);
+                            color: #09090bc0;
+                            font-weight: 888;
+                        }
+
+
+
+
+                        .footer{
+                            background: rgba( 250, 250, 250, 0.25 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 1.5px );
+                            -webkit-backdrop-filter: blur( 1.5px );
+                            border-radius: 10px;
+                            border: 1px solid rgba( 255, 255, 255, 0.18 );
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.5em;
+                            text-align: center;
+                            justify-content: center;
+                        }
+
+                        .footer h1{
+                             font-weight: 900;
+                             font-size: 1.4em;
+                             font-family: ttroman;
+                             color: #ca8a04;
+                        }
+                        .footer p{
+                             font-weight: 900;
+                             font-size: 1em;
+                             font-family: ttroman;
+                             color: #09090ba1;
+                        }
+
+                        .footer a{
+                            padding: 10px 15px;
+                            border: 1px solid #ca8a04;
+                            box-sizing: border-box;
+                            color: #09090ba1;
+                            background-color: #ca8a04;
+                            width: 50%;
+                            border-radius: 10px;
+                            text-decoration: none;
+                            margin: 0 auto;
+                            background: rgba( 202, 138, 4, 0.8 );
+                            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                            backdrop-filter: blur( 9px );
+                            -webkit-backdrop-filter: blur( 9px );
+                            border-radius: 10px;
+                        }
+
+
+                    @media (min-width : 475px){
+                        .hero-right{
+                            height: 320px;
+                            width: 90%;
+                            gap: 0.5em;
+                            }
+        
+        
+                            .hero-heading{
+                                    font-size: 1.6em;
+                            }
+        
+                            .hero-p{
+                                  font-size: 0.9em;
+                            }
+        
+                            .hero-right a{
+                                font-size: 0.9em;
+                            }
+
+
+
+
+                            .Rate-Card{
+                                height: 560px;
+                                width: 90%;
+                            }
+        
+        
+                                .table-row{
+                                       width: 100%;
+                                       display: table;
+                                       padding: 2px 0;
+                                       font-size: 0.7em;
+                                       margin-bottom: 0.5em;
+                                }
+        
+                                .tabel-cell{
+                                    width: 30%;
+                                    padding: 4px 0;
+                                }
+
+
+
+                        .footer h1{
+                             font-size: 1.5em;
+                        }
+                        .footer p{
+                             font-size: 1.1em;
+                        }
+
+                        .footer a{
+                            padding: 10px 15px;
+                            width: 30%;
+                            font-weight: 999;
+                            font-family: ttroman;
+                        }
+
+                    }
+                    @media (min-width : 640px){
+                        .hero-right{
+                            height: 320px;
+                            width: 90%;
+                            gap: 0.6em;
+                            }
+        
+        
+                            .hero-heading{
+                                    font-size: 1.8em;
+                            }
+        
+                            .hero-p{
+                                  font-size: 1em;
+                            }
+        
+                            .hero-right a{
+                                font-size: 1em;
+                            }
+
+
+
+
+
+                            .Rate-Card{
+                                height: 560px;
+                                width: 90%;
+                            }
+        
+        
+                                .table-row{
+                                       width: 100%;
+                                       display: table;
+                                       padding: 2px 0;
+                                       font-size: 0.8em;
+                                       margin-bottom: 0.5em;
+                                }
+        
+                                .tabel-cell{
+                                    width: 30%;
+                                    padding: 4px 0;
+                                }
+
+
+
+
+
+                                .footer h1{
+                                    font-size: 1.6em;
+                               }
+                               .footer p{
+                                    font-size: 1.2em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 10px;
+                                   width: 35%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.3em;
+                               }
+
+
+                    }
+                    @media (min-width : 768px){
+                        .hero-right{
+                            height: 300px;
+                            width: 90%;
+                            gap: 0.7em;
+                            }
+        
+        
+                            .hero-heading{
+                                    font-size: 1.82em;
+                            }
+        
+                            .hero-p{
+                                  font-size: 1.03em;
+                            }
+        
+                            .hero-right a{
+                                font-size: 1em;
+                            }
+
+
+
+                            .Rate-Card{
+                                height: 560px;
+                                width: 90%;
+                            }
+        
+        
+                                .table-row{
+                                       width: 100%;
+                                       display: table;
+                                       padding: 2px 0;
+                                       font-size: 0.8em;
+                                       margin-bottom: 0.5em;
+                                }
+        
+                                .tabel-cell{
+                                    width: 30%;
+                                    padding: 4px 0;
+                                }
+
+
+
+                                .footer h1{
+                                    font-size: 1.7em;
+                               }
+                               .footer p{
+                                    font-size: 1.3em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 10px;
+                                   width: 28%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.3em;
+                               }
+                    }
+                    @media (min-width : 1024px){
+                        .hero-right{
+                            height: 320px;
+                            width: 50%;
+                            gap: 1em;
+                            }
+        
+        
+                            .hero-heading{
+                                    font-size: 1.9em;
+                            }
+        
+                            .hero-p{
+                                  font-size: 1em;
+                            }
+        
+                            .hero-right a{
+                                font-size: 1.1em;
+                            }
+
+
+
+                            .Rate-Card{
+                                height: 660px;
+                                width: 90%;
+                            }
+        
+        
+                                .table-row{
+                                       width: 100%;
+                                       display: table;
+                                       padding: 2px 0;
+                                       font-size: 0.8em;
+                                       margin-bottom: 0.5em;
+                                }
+        
+                                .tabel-cell{
+                                    width: 30%;
+                                    padding: 4px 0;
+                                }
+
+
+
+
+                                .footer h1{
+                                    font-size: 1.8em;
+                               }
+                               .footer p{
+                                    font-size: 1.4em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 10px;
+                                   width: 18%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.4em;
+                                   margin-bottom: 1em;
+                               }
+                    }
+                    @media (min-width : 1280px){
+
+                        .hero-right{
+
+                            height: 320px;
+                            width: 50%;
+                            gap: 1em;
+                            }
+        
+        
+                            .hero-heading{
+                                    font-size: 2em;
+                            }
+        
+                            .hero-p{
+                                  font-size: 1.1em;
+                            }
+        
+                            .hero-right a{
+                                font-size: 1.2em;
+                            }
+
+
+                            .Rate-Card{
+                                height: 600px;
+                                width: 90%;
+                            }
+        
+        
+                                .table-row{
+                                       width: 100%;
+                                       display: table;
+                                       padding: 2px 0;
+                                       font-size: 0.9em;
+                                       margin-bottom: 0.5em;
+                                }
+        
+                                .tabel-cell{
+                                    width: 30%;
+                                    padding: 4px 0;
+                                }
+
+
+                                .footer h1{
+                                    font-size: 1.8em;
+                               }
+                               .footer p{
+                                    font-size: 1.4em;
+                               }
+       
+                               .footer a{
+                                   padding: 8px 10px;
+                                   width: 18%;
+                                   font-weight: 999;
+                                   font-family: ttroman;
+                                   font-size: 1.4em;
+                               }
+                    }
+                    @media (min-width : 1536px){}
